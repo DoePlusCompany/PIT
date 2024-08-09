@@ -9,7 +9,7 @@
                 <h2>Doa+</h2>
                 <ul id="home-header-items">
                     <li>
-                        <a href="">
+                        <a href="/options">
                             Inicio
                         </a>
                     </li>

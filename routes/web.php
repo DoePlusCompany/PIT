@@ -17,3 +17,7 @@ Route::get('/login', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/options', function () {
+    return view('options');
+});
