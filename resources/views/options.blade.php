@@ -60,12 +60,93 @@
                     <div id="section-explorer-bottom">
                         <div class="card">
                             <img src="assets/imgExplorer1.png" alt="">
+                            <h2>
+                                <strong>
+                                    Arrecadando Comida
+                                </strong>
+                            </h2>
+                            <div class="typeCard">
+                                <p>
+                                    Saúde - Tratamento
+                                </p>
+                                <p>
+                                    Realizado pela ONG
+                                </p>
+                            </div>
+                            <div class="line">
+
+                            </div>
+                            <div class="informations">
+                                <p>
+                                    Telefone - (31) 99700 - 2244
+                                </p>
+                                <p>
+                                    Email: doepluscompany@gmail.com
+                                </p>
+                            </div>
+                            <button id="btn-donations-1">
+                                AJUDAR
+                            </button>
                         </div>
                         <div class="card">
                             <img src="assets/imgExplorer2.png" alt="">
+                            <h2>
+                                <strong>
+                                    Arrecadando Roupas
+                                </strong>
+                            </h2>
+                            <div class="typeCard">
+                                <p>
+                                    Saúde - Tratamento
+                                </p>
+                                <p>
+                                    Realizado pela ONG
+                                </p>
+                            </div>
+                            <div class="line">
+
+                            </div>
+                            <div class="informations">
+                                <p>
+                                    Telefone - (31) 99700 - 2244
+                                </p>
+                                <p>
+                                    Email: doepluscompany@gmail.com
+                                </p>
+                            </div>
+                            <button id="btn-donations-2">
+                                AJUDAR
+                            </button>
                         </div>
                         <div class="card">
                             <img src="assets/imgExplorer3.png" alt="">
+                            <h2>
+                                <strong>
+                                    Arrecadando Dinheiro
+                                </strong>
+                            </h2>
+                            <div class="typeCard">
+                                <p>
+                                    Saúde e Tratamento
+                                </p>
+                                <p>
+                                    Realizado pela ONG
+                                </p>
+                            </div>
+                            <div class="line">
+
+                            </div>
+                            <div class="informations">
+                                <p>
+                                    Telefone - (31) 99700 - 2244
+                                </p>
+                                <p>
+                                    Email: doepluscompany@gmail.com
+                                </p>
+                            </div>
+                            <button id="btn-donations-3">
+                                AJUDAR
+                            </button>
                         </div>
                     </div>
                 </div>
