@@ -74,8 +74,8 @@
                 <img src="assets/ourMissionImgs/retangulo-OurMission.png" alt="">
                 <div id="OurMission-left">
                     <div id="OurMission-headline">
-                        <h3>About us</h3>
-                        <h2>Our Mission</h2>
+                        <h3>Sobre</h3>
+                        <h2>Nossa missão</h2>
                         <p>Conectar doadores generosos a causas que transformam vidas,
                             promovendo a solidariedade e o bem-estar social através de
                             um sistema de doações transparente e eficiente.
@@ -87,6 +87,31 @@
                 </div>
                 <div id="OurMission-right">
                     <img src="assets/ourMissionImgs/ourmission.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container-OurVision">
+        <section id="OurVision">
+            <div id="OurVision-wrapper">
+                <img src="assets/retangulo-OurVision.png" alt="">
+                <div id="OurVision-left">
+                    <div id="OurVision-headline">
+                        <h3>Sobre</h3>
+                        <h2>Nossa Visão</h2>
+                        <p> 
+                            Fortalecer as comunidades onde atuamos, 
+                            promovendo a inclusão e o bem-estar através de doações que 
+                            geram um impacto positivo na vida das pessoas.
+                        </p>
+                    </div>
+                    <button>
+                        Learn more
+                    </button>
+                </div>
+                <div id="OurVision-right">
+                    <img src="assets/ourvisionimg.png" alt="">
                 </div>
             </div>
         </section>
@@ -147,7 +172,7 @@
                 </div>
             </div>
         </div>
-        <img src="assets/retangulo-help.png" alt="">
+        <!-- <img src="assets/retangulo-help.png" alt=""> -->
     </section>
 
 
