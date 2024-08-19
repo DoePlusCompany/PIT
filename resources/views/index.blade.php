@@ -128,9 +128,8 @@
                     Quer <span> ajudar </span> o próximo?
                 </h2>
                 <p>
-                    Crie sua vaquinha, cause impacto!
-                    Além disso, ao criar uma vaquinha você concorre ao Vakinha Premiada, o sorteio mensal para a comunidade ativa no Vakinha, no valor de R$ 15 mil.
-                    E esse valor você poderá usar como quiser!
+                Sua generosidade pode mudar vidas. Com uma simples doação, você pode fazer parte de uma causa maior, ajudando aqueles que mais precisam.
+                 Junte-se a nós nessa missão de transformação. Contribua hoje e veja como sua ajuda pode fazer a diferença
                 </p>
             </div>
             <div id="Help-wrapper-bottom">
@@ -138,7 +137,7 @@
                     <div class="Help-bottom-card-content">
                         <img src="assets/teste.png" alt="">
                         <h3>
-                            Para você
+                            Para pessoas físicas
                         </h3>
                         <p>
                             Realize uma contribuição ou doação para ajudar!
