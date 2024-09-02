@@ -9,12 +9,12 @@
                 <h2>Doa+</h2>
                 <ul id="home-header-items">
                     <li>
-                        <a href="/options">
+                        <a href="/">
                             Inicio
                         </a>
                     </li>
                     <li>
-                        <a href="">
+                        <a href="/options">
                             Explorar
                         </a>
                     </li>
@@ -176,47 +176,54 @@
 
 
     <section id="footer">
-        <div class="container">
             <div id="footer-wrapper">
-                <div id="footer-wrapper-top">
-                    <h2>Doa+</h2>
-                    <div id="footer-wrapper-top-itens">
+                <div id="footer-wrapper-left">
+                    <div id="footer-wrapper-itens">
                         <ul>
-                            <li>Lorem</li>
-                            <li>First</li>
-                            <li>Second</li>
-                            <li>Third</li>
+                            <li>Siga-nos</li>
+                            
+                            <li>WhatsApp</li>
+                            <li>Instagram</li>
+                            <li>Linkedin</li>
+                            <li>Facebook</li>
+                            <li>TikTok</li>
                         </ul>
-
                         <ul>
-                            <li>Lorem</li>
-                            <li>First</li>
-                            <li>Second</li>
-                            <li>Third</li>
+                            <li>Idealizadores</li>
+
+                            <li>Arthur Martins</li>
+                            <li>Daniel Isaac</li>
+                            <li>Caio de Souza</li>
+                            <li>Davi Lavarini</li>
+                            <li>Kauan Gabriel</li>
                         </ul>
-
                         <ul>
-                            <li>Lorem</li>
-                            <li>First</li>
-                            <li>Second</li>
-                            <li>Third</li>
-                        </ul>
+                            <li>Links rápidos</li>
 
-                        <ul>
-                            <li>Lorem</li>
-                            <li>First</li>
-                            <li>Second</li>
-                            <li>Third</li>
+                            <li>Página 01</li>
+                            <li>Página 02</li>
+                            <li>Página 03</li>
+                            <li>Página 04</li>
+                            <li>Página 05</li>
                         </ul>
                     </div>
                 </div>
-                <div id="footer-wrapper-bottom">
-                    <p>2024 Doa+ inc. All right reserved</p>
-                    <p>Politica de Privacidade</p>
-                    <p>Termos de uso </p>
+                <div id="footer-wrapper-right">
+                    <div id="fale-conosco">
+                        <h2>
+                            Fale conosco
+                        </h2>
+                        <div>
+                            <p>
+                                Email: teste@gmail.com
+                            </p>
+                            <p>
+                                Telefone: telefone@gmail.com
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
     </section>
 </div>
 @endsection

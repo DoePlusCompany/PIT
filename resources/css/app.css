@@ -410,81 +410,91 @@
 /* FOOTER  */
 
 #footer {
-    background-color: #4B4B4B;
+    height: 243px;
+    margin-top: 200px;
 }
 
 #footer-wrapper {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 104px;
-    margin-top: 160px;
+    height: 243px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
 }
 
-#footer-wrapper-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#footer-wrapper-left {
     width: 100%;
-    max-width: 850px;
-    margin-top: 68px;
-}
+    background-color: #D66253;
 
-#footer-wrapper-top h2 {
-    color: #ffffff;
-    font-family: "Sora", sans-serif;
-}
-
-#footer-wrapper-top-itens {
     display: flex;
-    flex-direction: row;
-    gap: 60px;
+    align-items: center;
+    justify-content:center;
 }
 
-#footer-wrapper-top-itens ul {
+#footer-wrapper-right {
+    width: 100%;
+    background-color: #86352B;
+
+    padding: 48px 44px;
+}
+
+#footer-wrapper-itens {
+    width: 100%;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+#footer-wrapper-itens ul {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 5px;
 }
 
-#footer-wrapper-top-itens ul li:first-child {
-    color: #f55050;
+#footer-wrapper-itens ul li:first-child {
+    color: #fff;
     font-size: 18px;
-    font-weight: bold;
+    font-family: "Sora", sans-serif;
+    margin-bottom: 22px;
+
+    font-weight: 500;
+}
+
+#footer-wrapper-itens ul li {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300; 
     font-family: "Sora", sans-serif;
 }
 
-#footer-wrapper-top-itens ul li {
-    color: #ffffff;
-    font-size: 15px;
-    font-family: "Sora", sans-serif;
-}
-
-#footer-wrapper-bottom {
+#fale-conosco {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 80px;
+    flex-direction: column;
+    gap: 10px;
 }
 
-#footer-wrapper-bottom p {
-    color: #ffffff;
-    font-size: 13px;
-    font-weight: 600;
+#fale-conosco h2 {
+    color: #fff;
+    font-family: "Sora", sans-serif;
+    font-size: 18px;
+}
+
+#fale-conosco div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}   
+
+#fale-conosco div p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
     font-family: "Sora", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -904,7 +914,6 @@ span{
 #background_options_donations {
     width: 100%;
     height: 100vh;
-    border: 2px solid #000;
 }
 
 #section-explorer {

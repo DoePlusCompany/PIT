@@ -3,7 +3,6 @@
 @section('conteudo')
 <main>
     <div class="left">
-
         <img src="assets/loginImgs/crianca-login.png" alt="imagem crianca" id="imagemLoginUser">
     </div>
 
