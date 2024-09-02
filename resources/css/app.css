@@ -1074,3 +1074,60 @@ span{
     font-size: 13px;
     font-family: "Sora", sans-serif;
 }
+
+/* --------------------------------------------------------- PAGE TESTIMONIALS -------------------------------------------- */
+
+.container-testimonials {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.testimonial-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonial-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+}
+
+.testimonial-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #555;
+}
+
+.testimonial-content {
+    margin-top: 10px;
+    font-style: italic;
+    color: #777;
+}

@@ -27,6 +27,11 @@
                                 Contact
                             </a>
                         </li>
+                        <li>
+                            <a href="/testimonials">
+                    Testimonials
+                    </a>
+                </li>
                     </ul>
                 </nav>
                 <button>

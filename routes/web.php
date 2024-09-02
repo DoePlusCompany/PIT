@@ -21,3 +21,7 @@ Route::get('/contact', function () {
 Route::get('/options', function () {
     return view('options');
 });
+
+Route::get('/testimonials', function () {
+    return view('testimonials');
+});
