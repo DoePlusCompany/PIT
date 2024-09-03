@@ -180,6 +180,47 @@
     </section>
 
 
+    <section id="blog">
+        <div id="wrapper-blog">
+            <div id="wrapper-blog-top">
+                <h3>Blog</h3>
+                <h2>DICAS, NOTICIAS E ARTIGOS</h2>
+                <P>Artigos, dicas e recomendações para você ficar por dentro de tudo</P>
+            </div>
+            <div id="wrapper-blog-bottom">
+                <div id="sub-wrapper-blog-bottom">
+                    <div id="sub-wrapper-blog-bottom-left">
+                        .
+                    </div>
+                    <div id="sub-wrapper-blog-bottom-right">
+                        <div id="sub-01">
+                            <div>
+                                
+                            </div>
+                            <p>
+                            Estamos construindo o mais relevante ecossistema de ONGs online do Brasil 
+                            </p>
+                        </div>
+                        <div id="sub-02">
+                            <div>
+                                
+                            </div>
+                            <p>
+                            Loja online estimula novas formas de apoiar causas emergenciais                            </p>
+                        </div>
+                        <div id="sub-03">
+                            <div>
+                                    
+                            </div>
+                            <p>
+                            A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="footer">
             <div id="footer-wrapper">
                 <div id="footer-wrapper-left">

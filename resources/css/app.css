@@ -1131,3 +1131,125 @@ span{
     font-style: italic;
     color: #777;
 }
+/* ---------------------------------------- */
+
+
+/* BLOG */
+
+#blog {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+#wrapper-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#wrapper-blog-top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+#wrapper-blog-top h3 {
+    font-weight: bold;
+    color: #D66253;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+}
+
+#wrapper-blog-top h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+    font-family: "Sora", sans-serif;
+}
+
+#wrapper-blog-top p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Sora", sans-serif;
+    color: #6a6a6a;  
+}
+
+
+#sub-wrapper-blog-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#sub-wrapper-blog-bottom-left {
+    width: 100%;
+    background-color: #8a8a8a;
+    height: 50vh; 
+    border-radius: 10px;
+}
+
+#sub-wrapper-blog-bottom-right {
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+#sub-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-01 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-01 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+#sub-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-02 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-02 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+#sub-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-03 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-03 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
