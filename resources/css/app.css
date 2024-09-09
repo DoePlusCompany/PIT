@@ -1141,6 +1141,10 @@ span{
     max-width: 1216px;
     margin: 0 auto;
     margin-top: 200px;
+
+    @media (max-width: 1920px) {
+        max-width: 1548px;
+    }
 }
 
 #wrapper-blog {
