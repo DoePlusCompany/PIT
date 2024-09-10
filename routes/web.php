@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UsersController;
 
 Route::get('/', function () {
     return view('index');
@@ -25,3 +26,9 @@ Route::get('/options', function () {
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
+
+
+Route::get('/users/create', [UsersController::class, 'create']);
+
+Route::post('/users/register', [UsersController::class, 'register']);
+
