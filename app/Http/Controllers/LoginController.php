@@ -1,9 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-use Illuminate\Support\Facades\Auth;
+
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class LoginController extends Controller
 {
@@ -12,18 +13,15 @@ class LoginController extends Controller
     }
 
     public function authenticate(Request $req) {
-        $credentials = array(
-            'email' => $req->email,
-            'password' => $req->password
-        );
-        
+        $credentials = $req->only('email', 'password');
+
         if (Auth::attempt($credentials)) {
             $req->session()->regenerate();
             return redirect('/');
         }
 
         return back()->withErrors([
-            'email' => "Usuário ou Senha Inválidos!"
+            'email' => 'Usuário ou Senha Inválidos!',
         ])->withInput();
     }
 
@@ -31,7 +29,7 @@ class LoginController extends Controller
         Auth::logout();
         $req->session()->invalidate();
         $req->session()->regenerateToken();
-        return redirect('login');
+        return redirect('/login');
     }
 
 
