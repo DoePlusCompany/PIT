@@ -4,7 +4,10 @@
 
 <div id="background">
     <div class="container">
-        <header id="home-header">
+    </div>
+    <section id="hero">
+        <div id="hero-main-left">
+            <header id="home-header">
             <nav id="home-header-left">
                 <h2>Doa+</h2>
                 <ul id="home-header-items">
@@ -35,35 +38,18 @@
                 </li>
                 </ul>
             </nav>
+            
+        </header> 
+        <img src="assets/siblings.png" alt="">
+        </div>
+        <div id="hero-main-right">
             <button>
                 Contribua
             </button>
-        </header>
-
-        <section id="hero">
-            <div id="hero-wrapper">
-                <div id="hero-wrapper-left">
-                    <h1>
-                        Transformamos generosidade em impacto real
-                    </h1>
-                    <h4>
-                        Somos a ponte entre quem deseja ajudar e quem precisa de apoio!
-                    </h4>
-                    <div id="hero-wrapper-btns">
-                        <button>
-                            Doar
-                        </button>
-                        <button>
-                            Cadastrar instituição
-                        </button>
-                    </div>
-                </div>
-                <div id="hero-wrapper-right">
-                    <img src="assets/siblings.png" alt="">
-                </div>
-            </div>
-        </section>
-    </div>
+            <img src="assets/Group 6.png" alt="">
+            
+        </div>
+    </section>
 
 
     <section id="imagens">
@@ -73,10 +59,23 @@
     </section>
 
 
+
+
+
+
+
+
+
+
+
+
+<!-- inicio secao de nossa missao -->
+
+
     <div class="container-OurMission">
         <section id="OurMission">
             <div id="OurMission-wrapper">
-                <img src="assets/ourMissionImgs/retangulo-OurMission.png" alt="">
+                <div id="identifider-bar-OurMission"></div>
                 <div id="OurMission-left">
                     <div id="OurMission-headline">
                         <h3>Sobre</h3>
@@ -91,13 +90,13 @@
                     </button>
                 </div>
                 <div id="OurMission-right">
-                    <img src="assets/ourMissionImgs/ourmission.png" alt="">
+                    <img src="assets/ourvisionimg.png" alt="">
                 </div>
             </div>
         </section>
     </div>
 
-    <div class="container-OurVision">
+    <!-- <div class="container-OurVision">
         <section id="OurVision">
             <div id="OurVision-wrapper">
                 <img src="assets/retangulo-OurVision.png" alt="">
@@ -120,10 +119,25 @@
                 </div>
             </div>
         </section>
-    </div>
+    </div> -->
+    
+    
+<!-- fim da secao de nossa missao -->
 
 
-    <section id="Help">
+
+
+
+
+
+
+
+
+
+
+<!-- inicio da secao de ajuda -->
+
+    <!-- <section id="Help">
         <div id="Help-wrapper">
             <div id="Help-wrapper-top">
                 <h4>
@@ -140,7 +154,7 @@
             <div id="Help-wrapper-bottom">
                 <div class="Help-bottom-card">
                     <div class="Help-bottom-card-content">
-                        <img src="assets/teste.png" alt="">
+                    <div class="card-line">line</div>
                         <h3>
                             Para pessoas físicas
                         </h3>
@@ -152,7 +166,7 @@
                 </div>
                 <div class="Help-bottom-card">
                     <div class="Help-bottom-card-content">
-                        <img src="assets/teste.png" alt="">
+                    <div class="card-line">line</div>
                         <h3>
                             Para instituições
                         </h3>
@@ -164,7 +178,7 @@
                 </div>
                 <div class="Help-bottom-card">
                     <div class="Help-bottom-card-content">
-                        <img src="assets/teste.png" alt="">
+                       <div class="card-line">line</div>
                         <h3>
                             Para parceiros
                         </h3>
@@ -174,10 +188,102 @@
                         <img src="assets/arrow.png" alt="">
                     </div>
                 </div>
+
+                <div id="identifider-bar-help"></div>
             </div>
+
+            
         </div>
-        <!-- <img src="assets/retangulo-help.png" alt=""> -->
-    </section>
+         <img src="assets/retangulo-help.png" alt=""> 
+    </section> -->
+
+<!-- fim da secao de ajuda -->
+
+
+<section id="help-container">
+    <div id="main-help">
+    <div id="Help-wrapper">
+            <div id="Help-wrapper-top">
+                <h4>
+                    CONTRIBUA
+                </h4>
+                <h2>
+                QUERO <span> AJUDAR </span> o próximo
+                </h2>
+                <p>
+                Temos várias categorias de doação disponíveis. Escolha uma das ONGs parceiras e faça sua contribuição! Procure por causas que te toquem ou use 
+                nossos filtros para encontrar algo que você queira apoiar. Junte-se a nós e ajude quem precisa!
+                </p>
+            </div>
+
+            <div id="Help-wrapper-bottom">
+                <div class="card-help">
+                    <div id="identifider-line-help"></div>
+                    <div class="info-help-card">
+                        <h1>Arrecadando roupas</h1>
+                        <h2>Saúde - Tratamento</h2>
+                        <div class="user-email-help">
+                            <div id="user-icon-help"></div>
+                            <p>caiosouza@gmail.com</p>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="card-help">
+                    <div id="identifider-line-help-2"></div>
+                    <div class="info-help-card">
+                        <h1>Arrecadando alimentos</h1>
+                        <h2>Saúde - Tratamento</h2>
+                        <div class="user-email-help">
+                            <div id="user-icon-help-2"></div>
+                            <p>caiosouza@gmail.com</p>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="card-help">
+                    <div id="identifider-line-help-3"></div>
+                    <div class="info-help-card">
+                        <h1>Arrecadando dinheiro</h1>
+                        <h2>Saúde - Tratamento</h2>
+                        <div class="user-email-help">
+                            <div id="user-icon-help-3"></div>
+                            <p>caiosouza@gmail.com</p>
+                        </div>
+                        
+
+                    </div>
+
+                </div>
+
+              
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="identifider-bar-help"></div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- inicio da secao de blog -->
 
 
     <section id="blog">
@@ -205,21 +311,44 @@
                             <div>
                                 
                             </div>
-                            <p>
-                            Loja online estimula novas formas de apoiar causas emergenciais                            </p>
+                            <p> Loja online estimula novas formas de apoiar causas emergenciais </p>
                         </div>
                         <div id="sub-03">
                             <div>
                                     
                             </div>
-                            <p>
-                            A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!                            </p>
+                            <p> A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+<!-- fim da secao de blog -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- inicio da secao de footer -->
+
 
     <section id="footer">
             <div id="footer-wrapper">
@@ -272,4 +401,7 @@
             </div>
     </section>
 </div>
+
+
+<!-- fim da secao de footer -->
 @endsection
