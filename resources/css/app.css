@@ -4,6 +4,8 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: "Sora", sans-serif;
+
 }
 
 /* HOME */
@@ -1538,4 +1540,42 @@ span{
 #sub-03 p {
     width: 100%;
     font-family: "Sora", sans-serif;
+}
+
+/* --------------------------------------------------------- PAGE ABOUT US -------------------------------------------- */
+
+#main-content {
+    padding: 1rem;
+}
+
+#history-paragraph-1, #history-paragraph-2{
+    margin-top: 0;
+}
+
+.founder-profile{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.founder-name {
+    margin-top: 0;
+}
+
+#section-history{
+    padding-top: 128px;
+}
+
+#history-heading{
+    padding-bottom: 16px;
+}
+
+#section-founders{
+    padding-top: 64px;
+}
+
+#founders-heading{
+    padding-bottom: 16px;
 }

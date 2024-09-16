@@ -12,11 +12,9 @@ Route::get('/cadastro', function () {
     return view('register');
 });
 
-// Rota GET para exibir o formulário de login
-Route::get('/login', [LoginController::class, 'login'])->name('login');
-
-// Rota POST para processar a autenticação do login
-Route::post('/login', [LoginController::class, 'authenticate'])->name('login.authenticate');
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
 
 Route::get('/contact', function () {
     return view('contact');
@@ -29,6 +27,12 @@ Route::get('/options', function () {
 Route::get('/testimonials', function () {
     return view('testimonials');
 });
+
+// Rota GET para exibir o formulário de login
+Route::get('/login', [LoginController::class, 'login'])->name('login');
+
+// Rota POST para processar a autenticação do login
+Route::post('/login', [LoginController::class, 'authenticate'])->name('login.authenticate');
 
 // Rota para exibir o formulário de registro (GET)
 Route::get('/users/create', [UsersController::class, 'create'])->name('register.create');

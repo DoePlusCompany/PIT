@@ -2,43 +2,7 @@
 
 @section('conteudo')
 <div class="container">
-    <header id="home-header">
-        <nav id="home-header-left">
-            <h2>Doa+</h2>
-            <ul id="home-header-items">
-                <li>
-                    <a href="/">
-                        Inicio
-                    </a>
-                </li>
-                <li>
-                    <a href="/options">
-                        Explorar
-                    </a>
-                </li>
-                <li>
-                    <a href="/blog">
-                        Blog
-                    </a>
-                </li>
-                <li>
-                    <a href="/contact">
-                        Contact
-                    </a>
-                </li>
-                <li>
-                    <a href="/testimonials">
-                        Testimonials
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <button>
-            Contribua
-        </button>
-    </header>
 
-</div>
 <section id="OurInformation">
     <div class="container">
         <div id="OurInformation-wrapper">
@@ -92,4 +56,5 @@
         </div>
     </div>
 </section>
+</div>
 @endsection
