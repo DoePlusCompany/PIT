@@ -62,11 +62,11 @@
                         <ul>
                             <li>Links rápidos</li>
 
-                            <li>Sobre Nós</li>
-                            <li>Página 02</li>
-                            <li>Página 03</li>
-                            <li>Página 04</li>
-                            <li>Página 05</li>
+                            <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
                         </ul>
                     </div>
                 </div>
