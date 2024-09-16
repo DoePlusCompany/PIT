@@ -20,11 +20,12 @@
                     <input type="email" name="email" placeholder="Email" value="{{ old('email') }}">
                     <input type="password" name="password" placeholder="Password">
                     <input type="password" name="password_confirmation" placeholder="Confirm Password">
-                    <select name="role" require>
+                    <select name="role" required>
                         <option value=""></option>
-                        <option value="admin">Admin</option>
-                        <option value="comum">Comum</option>
+                        <option value="usuario">Usuário</option>
+                        <option value="org">Organização</option>
                     </select>
+
                     <div id="itens-register">
                         <div>
                             <img src="assets/registerImgs/googleAzul.png" alt="">
