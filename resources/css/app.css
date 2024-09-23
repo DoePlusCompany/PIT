@@ -30,6 +30,7 @@
     align-items:center;
     justify-content: space-between;
     padding-top: 25px;
+    background-color: transparent;
 }
 
 #home-header-left {
@@ -881,6 +882,192 @@
 
 #background-register {
     width: 100%;
+    height: 93vh;
+    background-color: #54B49C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-register {
+    background-color: #EDEDED;
+    width: 70vw;
+    height: 85vh;
+
+}
+
+#wrapper-register {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 85vh;
+    box-shadow: 4px 4px 30px #3B3434;
+    font-family: "Montserrat", sans-serif;
+}
+
+#left-register {
+    background-color: #EDEDED;
+    width: 34vw;
+    height: 85vh;
+    display: flex;
+    justify-content: end;
+}
+
+#left-register img {
+    height: 85vh;
+    
+}
+
+#right-register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px;
+    gap: 50px;
+}
+
+#right-register h2{
+    color: #54B49C;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+#itens-register {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+#right-register form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#right-register form input{
+    padding: 8px;
+    width: 500px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #54B49C;
+}
+
+#right-register button {
+    border-radius: 30px;
+    background-color: #54B49C;
+    color: #ffffff;
+    width: 40%;
+    height: 5vh;
+    border: none;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5%;
+}
+
+#right-register button:hover{
+    background-color: #31a488;
+    transition: .4s;
+    cursor: pointer;
+
+
+}
+
+#itens-register {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+
+
+#itens-register p {
+    color: #36534c;
+    font-size: 16px;
+}
+
+#itens-register span {
+    color: rgb(33, 116, 97);
+    font-size: 16px;
+}
+
+footer{
+    background-color: #54B49C;
+    height: 7vh;
+    display: flex;
+    justify-content: end;
+}
+
+#logo-div{
+    height: 100%;
+    width: 5%;
+}
+
+#logo-div img{
+    height: 6vh;
+}
+
+#master-inputs{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+}
+
+.inputs-group-resiter{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    border-bottom: 2px solid #54B49C;
+
+}
+
+.inputs-group-resiter input{
+    width: 75%;
+    padding-left: 3%;
+    margin-bottom: 2vh;
+    height: 3vh;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.inputs-group-resiter input:focus{
+    outline: none;
+}
+
+.inputs-group-resiter p{
+    color: #545454;
+}
+
+::selection {
+    background-color: #54B49C;
+    color: rgb(255, 255, 255);
+}
+
+#type-select{
+    background-color: #6ac8b1;
+    border-radius: 50px;
+    border: 2px solid #6ac8b1;
+    width: 8vw;
+    color: white;
+    padding-left: 5%;
+    font-size: 12px;
+    height: 3vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+
+
+
+}
+
+/* #background-register {
+    width: 100%;
     height: 100vh;
     background-color: #54B49C;
     display: flex;
@@ -975,7 +1162,7 @@
 #itens-register p {
     color: #585454;
     font-size: 16px;
-}
+} */
 
 
 /* LOGIN */
@@ -1070,7 +1257,174 @@
 
 /* LOGIN---------------------------------------------------------------------------------- */
 
+#login-container-main{
+    width: 70vw;
+    height: 85vh;
+    display: flex;
+    box-shadow: 4px 4px 30px #5c1818;
 
+}
+
+.left-login{
+    width: 38%;
+    background-color: aqua;
+}
+
+.right-login{
+    width: 62%;
+    background-color:#EDEDED;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.right-login h1{
+    color: #872323;
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 30%;
+    margin-top: 5vh;
+    margin-bottom: 12vh;
+}
+
+#master-inputs-login{
+    display: flex;
+    width: 35vw;
+    height: 16vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs-group-register-login{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    border-bottom: 2px solid #E58F84;
+
+}
+
+.inputs-group-register-login input{
+    width: 75%;
+    padding-left: 3%;
+    margin-bottom: 2vh;
+    height: 3vh;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.inputs-group-register-login input:focus{
+    outline: none;
+}
+
+.inputs-group-register-login p{
+    color: #545454;
+}
+
+
+
+
+/* h1{
+    color: #872323;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+} */
+
+#infoInferiores{
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconsRedeSocial{
+    display: flex;
+    width: 16%;
+    justify-content: space-around;
+    padding-left: 30px;
+
+}
+
+#googleIcon{
+    background-color: #872323;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#googleIcon:hover{
+    background-color: #b44a4a;
+}
+
+#faceboockIcon{
+    background-color: #b44a4a;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+#faceboockIcon:hover{
+    background-color: #872323;
+}
+
+#esqueciSenha{
+    color: #C05252;
+    width: 11vw;
+    padding-bottom: 50px;
+}
+
+span{
+    color: #872323;
+}
+
+#btnEnviarLogin{
+    margin-top: 5vh;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+}
+
+#btnEnviarLogin > button{
+    background-color: #D74836;
+    border-radius: 30px;
+    color: #ffffff;
+    width: 50%;
+    height: 5vh;
+    border: none;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 5%;
+    margin-top: 30%;
+    
+}
+
+#btnEnviarLogin > button:hover{
+    background-color: #872323;
+}
+
+
+
+#imagemLoginUser{
+    height: 85vh;
+    width: 100%;
+
+}
+
+#main-login{
+    background-color: #D66253;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+
+/*
 
 .left{
     width: 38%;
@@ -1105,12 +1459,6 @@
     transition: .3s;
 }
 
-/* h1{
-    color: #872323;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-} */
 
 #infoInferiores{
     display: flex;
@@ -1195,7 +1543,7 @@ span{
 #imagemLoginUser{
     height: 75vh;
     margin-top: 5vh;
-}
+}*/
 
 
 /* --------------------------------------------------------- SECTION OPTIONS DONATIONS -------------------------------------------- */

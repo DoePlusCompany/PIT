@@ -6,42 +6,43 @@
         <p>{{ $e }}</p>
     @endforeach
 @endif
-<main>
-    <div class="left">
-        <img src="assets/loginImgs/crianca-login.png" alt="imagem crianca" id="imagemLoginUser">
-    </div>
+<main id="main-login">
 
-    <div class="right">
-        <form action="{{ route('login.authenticate') }}" method="post">
-            <h1>FAÇA LOGIN</h1>
-            @csrf
-            <div class="inpLogin">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="usuario@email.com.br">
-            </div>
+    <section id="login-container-main">
+        <div class="left-login">
+            <img src="/assets/loginImgs/loginImg.png" alt="imagem crianca" id="imagemLoginUser">
+        </div>
+    
+        <div class="right-login">
+            <form action="{{ route('login.authenticate') }}" method="post">
+                <h1>FAÇA LOGIN</h1>
+                @csrf
 
-            <div class="inpLogin">
-                <label for="password">Senha :</label>
-                <input type="password" name="password" placeholder="* * * * * * * * * *">
-            </div>
+                <div id="master-inputs-login">
 
-            <div>
-                <div id="infoInferiores">
-                    <div id="iconsRedeSocial">
-                        <button id="googleIcon">Google Icon</button>
-                        <button id="faceboockIcon">Facebook Icon</button>
+                    <div class="inputs-group-register-login">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="usuario@email.com.br">
                     </div>
-
-                    <div id="esqueciSenha">
-                        <p>Esqueci minha <span>senha</span></p>
-                    </div>
+        
+                    <div class="inputs-group-register-login">
+                        <label for="password">Senha :</label>
+                        <input type="password" name="password" placeholder="* * * * * * * * * *">
+                    </div>    
                 </div>
-            </div>
+                
+    
+                <div id="btnEnviarLogin">
+                    <button type="submit">Entrar</button>
+                </div>
+            </form>
+        </div>
 
-            <div id="btnEnviarLogin">
-                <button type="submit">Entrar</button>
-            </div>
-        </form>
-    </div>
+
+    </section>
+
+
+    
 </main>
+
 @endsection

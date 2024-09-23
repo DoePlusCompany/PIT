@@ -21,7 +21,7 @@
 <body>
     <main>
 
-    <header id="home-header">
+    <!-- <header id="home-header">
         <nav id="home-header-left">
             <h2>Doa+</h2>
             <ul id="home-header-items">
@@ -33,11 +33,11 @@
             </ul>
         </nav>
         <button>Contribua</button>
-    </header>
+    </header> -->
 
     @yield('conteudo')
 
-    <section id="footer">
+    <!-- <section id="footer">
             <div id="footer-wrapper">
                 <div id="footer-wrapper-left">
                     <div id="footer-wrapper-itens">
@@ -86,7 +86,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
 
     </main>
     @vite('resources/js/app.js')
