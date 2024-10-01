@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\CarrosselController;
 
 Route::get('/', function () {
     return view('index');
@@ -39,6 +40,10 @@ Route::get('/users/create', [UsersController::class, 'create'])->name('register.
 
 // Rota para processar o formulário de registro (POST)
 Route::post('/users/register', [UsersController::class, 'register'])->name('register');
+
+Route::get('/', [CarrosselController::class, 'index']);
+
+
 
 
 

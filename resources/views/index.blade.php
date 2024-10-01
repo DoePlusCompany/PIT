@@ -272,60 +272,60 @@
 
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
 <!-- inicio da secao de blog -->
 
 
-    <section id="blog">
-        <div id="wrapper-blog">
-            <div id="wrapper-blog-top">
-                <h3>Blog</h3>
-                <h2>DICAS, NOTICIAS E ARTIGOS</h2>
-                <P>Artigos, dicas e recomendações para você ficar por dentro de tudo</P>
-            </div>
-            <div id="wrapper-blog-bottom">
-                <div id="sub-wrapper-blog-bottom">
-                    <div id="sub-wrapper-blog-bottom-left">
-                        .
+<section id="blog">
+    <div id="wrapper-blog">
+        <div id="wrapper-blog-top">
+            <h3>Blog</h3>
+            <h2>DICAS, NOTICIAS E ARTIGOS</h2>
+            <p>Artigos, dicas e recomendações para você ficar por dentro de tudo</p>
+        </div>
+        <div id="wrapper-blog-bottom">
+            <div id="sub-wrapper-blog-bottom">
+                <div id="sub-wrapper-blog-bottom-left">
+                    <!-- Carrossel colocado aqui -->
+                    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            @foreach ($imagens as $index => $imagem)
+                                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                                    <img src="{{ asset($imagem) }}" class="d-block img-fluid" alt="Imagem {{ $index + 1 }}">
+                                </div>
+                            @endforeach
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
                     </div>
-                    <div id="sub-wrapper-blog-bottom-right">
-                        <div id="sub-01">
-                            <div>
-                                
-                            </div>
-                            <p>
-                            Estamos construindo o mais relevante ecossistema de ONGs online do Brasil 
-                            </p>
-                        </div>
-                        <div id="sub-02">
-                            <div>
-                                
-                            </div>
-                            <p> Loja online estimula novas formas de apoiar causas emergenciais </p>
-                        </div>
-                        <div id="sub-03">
-                            <div>
-                                    
-                            </div>
-                            <p> A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!</p>
-                        </div>
+                </div>
+                <div id="sub-wrapper-blog-bottom-right">
+                    <div id="sub-01">
+                        <div></div>
+                        <p>Estamos construindo o mais relevante ecossistema de ONGs online do Brasil</p>
+                    </div>
+                    <div id="sub-02">
+                        <div></div>
+                        <p>Loja online estimula novas formas de apoiar causas emergenciais</p>
+                    </div>
+                    <div id="sub-03">
+                        <div></div>
+                        <p>A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
 <!-- fim da secao de blog -->
+
 
 @endsection
