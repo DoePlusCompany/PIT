@@ -323,6 +323,12 @@
     </div>
 </section>
 
+<div id="DivButtonVoltar">
+    <button id="buttonVoltar">
+        <a id="a" href="#">Voltar</a>
+    </button>
+</div>
+
 
 
 <!-- fim da secao de blog -->

@@ -1956,3 +1956,22 @@ span{
 #founders-heading{
     padding-bottom: 16px;
 }
+
+#buttonVoltar {
+    background-color: #E1B926;
+    padding: 6px 34px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Sora", sans-serif;
+}  
+
+#a{
+    color: white;
+}
+
+#DivButtonVoltar{
+    text-align: center;
+    padding-top: 64px;
+}
