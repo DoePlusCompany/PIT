@@ -3,52 +3,41 @@
 @section('conteudo')
 
 <div id="background">
-    <div class="container">
-    </div>
-    <section id="hero">
-        <div id="hero-main-left">
-            <header id="home-header">
+<section id="main-top-home">
+    <header id="home-header">
             <nav id="home-header-left">
-                <h2>Doa+</h2>
+                <h2>DOA+</h2>
                 <ul id="home-header-items">
-                    <li>
-                        <a href="/">
-                            Inicio
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/options">
-                            Explorar
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/blog">
-                            Blog
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/contact">
-                            Contact
-                        </a>
-                    </li>
-                    <li>
-                    <a href="/testimonials">
-                    Testimonials
-                    </a>
-                </li>
+                    <li> <a href="/">Inicio</a></li>
+                    
+                    <li><a href="/options">Explorar</a></li>
+                    
+                    <li><a href="/blog">Blog</a></li>
+                    
+                    <li><a href="/contact">Contact</a></li>
+                    
+                    <li><a href="/testimonials">Testimonials</a></li>
+                
                 </ul>
             </nav>
-            
-        </header> 
-        <img src="assets/siblings.png" alt="">
-        </div>
-        <div id="hero-main-right">
-            <button>
-                Contribua
-            </button>
-            <img src="assets/Group 6.png" alt="">
+
+            <div id="hero-main-right">
+            <button id="button-header-home-page">LOGIN</button>
             
         </div>
+            
+        </header>
+
+        <img src="assets/master-home-page.png" alt="">
+
+        <button id="button-main-top-home">CONTRIBUIR</button>
+    </section>
+
+
+    <section id="imagens">
+        <img src="assets/sectionImgs/first.png" alt="">
+        <img src="assets/sectionImgs/second.png" alt="">
+        <img src="assets/sectionImgs/third.png" alt="">
     </section>
 
 
@@ -96,108 +85,7 @@
         </section>
     </div>
 
-    <!-- <div class="container-OurVision">
-        <section id="OurVision">
-            <div id="OurVision-wrapper">
-                <img src="assets/retangulo-OurVision.png" alt="">
-                <div id="OurVision-left">
-                    <div id="OurVision-headline">
-                        <h3>Sobre</h3>
-                        <h2>Nossa Visão</h2>
-                        <p> 
-                            Fortalecer as comunidades onde atuamos, 
-                            promovendo a inclusão e o bem-estar através de doações que 
-                            geram um impacto positivo na vida das pessoas.
-                        </p>
-                    </div>
-                    <button>
-                        Learn more
-                    </button>
-                </div>
-                <div id="OurVision-right">
-                    <img src="assets/ourvisionimg.png" alt="">
-                </div>
-            </div>
-        </section>
-    </div> -->
-    
-    
-<!-- fim da secao de nossa missao -->
 
-
-
-
-
-
-
-
-
-
-
-
-<!-- inicio da secao de ajuda -->
-
-    <!-- <section id="Help">
-        <div id="Help-wrapper">
-            <div id="Help-wrapper-top">
-                <h4>
-                    Contribua
-                </h4>
-                <h2>
-                    Quer <span> ajudar </span> o próximo?
-                </h2>
-                <p>
-                Sua generosidade pode mudar vidas. Com uma simples doação, você pode fazer parte de uma causa maior, ajudando aqueles que mais precisam.
-                 Junte-se a nós nessa missão de transformação. Contribua hoje e veja como sua ajuda pode fazer a diferença
-                </p>
-            </div>
-            <div id="Help-wrapper-bottom">
-                <div class="Help-bottom-card">
-                    <div class="Help-bottom-card-content">
-                    <div class="card-line">line</div>
-                        <h3>
-                            Para pessoas físicas
-                        </h3>
-                        <p>
-                            Realize uma contribuição ou doação para ajudar!
-                        </p>
-                        <img src="assets/arrow.png" alt="">
-                    </div>
-                </div>
-                <div class="Help-bottom-card">
-                    <div class="Help-bottom-card-content">
-                    <div class="card-line">line</div>
-                        <h3>
-                            Para instituições
-                        </h3>
-                        <p>
-                            Realize uma contribuição ou doação para ajudar!
-                        </p>
-                        <img src="assets/arrow.png" alt="">
-                    </div>
-                </div>
-                <div class="Help-bottom-card">
-                    <div class="Help-bottom-card-content">
-                       <div class="card-line">line</div>
-                        <h3>
-                            Para parceiros
-                        </h3>
-                        <p>
-                            Realize uma contribuição ou doação para ajudar!
-                        </p>
-                        <img src="assets/arrow.png" alt="">
-                    </div>
-                </div>
-
-                <div id="identifider-bar-help"></div>
-            </div>
-
-            
-        </div>
-         <img src="assets/retangulo-help.png" alt=""> 
-    </section> -->
-
-<!-- fim da secao de ajuda -->
 
 
 <section id="help-container">
@@ -268,7 +156,9 @@
         </div>
     </div>
 
-    <div id="identifider-bar-help"></div>
+    <div id="main-bar-help">
+        <div id="identifider-bar-help"></div>
+    </div>
 
 </section>
 
@@ -323,11 +213,10 @@
     </div>
 </section>
 
-<div id="DivButtonVoltar">
-    <button id="buttonVoltar">
-        <a id="a" href="#">Voltar</a>
-    </button>
-</div>
+<section id="back-top-home-page">
+<a href="#" id="button-back-top-home-page">VOLTAR AO TOPO</a>
+    
+</section>
 
 
 
