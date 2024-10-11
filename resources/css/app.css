@@ -114,19 +114,29 @@
     text-decoration: none;
 }
 
-
-
-#button-header-home-page{
+#button-div-header-home-page{
     background-color: #e19f26;
-    color: #ffffff;
     border: none;
     border-radius: 30px;
-    font-weight: bold;
-    font-size: 12px;
     font-family: "Montserrat", sans-serif;
     width: 11vw;
     height: 3vh;
     margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    cursor: pointer;
+
+}
+
+
+#button-header-home-page{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+
+
 } 
 
 #back-top-home-page{
@@ -769,6 +779,10 @@ footer{
     justify-content: space-between;
 }
 
+#master-inputs ::placeholder{
+    color: #b1b1b1;
+}
+
 .inputs-group-resiter{
     display: flex;
     width: 100%;
@@ -816,193 +830,9 @@ footer{
 
 }
 
-/* #background-register {
-    width: 100%;
-    height: 100vh;
-    background-color: #54B49C;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#container-register {
-    background-color: #DCD9D9;
-    border-radius: 10px 0 0 10px;
-}
-
-#wrapper-register {
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-#left-register {
-    background-color: #99C3BB;
-    width: 550px;
-    border-radius: 10px 0 0 10px;
-}
-
-#left-register img {
-    height: 500px;
-}
-
-#right-register {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px 0px;
-    gap: 50px;
-}
-
-#right-register h2{
-    color: #54B49C;
-    font-size: 38px;
-    font-weight: 600;
-    font-family: "Sora", sans-serif;
-}
-
-#itens-register {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    align-items: center;
-}
-
-#right-register form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#right-register form input{
-    padding: 8px;
-    width: 500px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #54B49C;
-}
-
-#right-register button {
-    border-radius: 30px;
-    background-color: #54B49C;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-weight: 400;
-    font-family: "Sora", sans-serif;
-}
-
-#itens-register {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    width: 500px;
-}
-
-#itens-register>div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-#itens-register p {
-    color: #585454;
-    font-size: 16px;
-} */
 
 
-/* LOGIN */
 
-/* #background-login {
-    background-color: #D66253;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#left-login {
-    background-color: #F38779;
-    width: 550px;
-    border-radius: 10px 0 0 10px;
-}
-
-#container-login {
-    background-color: #DCD9D9;
-    border-radius: 10px 0 0 10px;
-}
-
-#wrapper-login {
-    display: flex;
-    flex-direction: row;
-}
-
-#right-login {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 50px 0px;
-    gap: 50px;
-}
-
-#right-login h2{
-    color: #872323;
-    font-size: 38px;
-    font-weight: 600;
-    font-family: "Sora", sans-serif;
-}
-
-#right-login form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-#right-login form input{
-    padding: 8px;
-    width: 500px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #E58F84;
-}
-
-#right-login button {
-    border-radius: 30px;
-    background-color: #872323;
-    color: #ffffff;
-    width: 200px;
-    height: 50px;
-    border: none;
-    font-weight: 400;
-    font-family: "Sora", sans-serif;
-}
-
-#itens-login {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 500px;
-}
-
-#itens-login>div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
-}
-
-#itens-login p {
-    color: #585454;
-    font-size: 16px;
-} */
 
 
 /* LOGIN---------------------------------------------------------------------------------- */
@@ -1018,6 +848,23 @@ footer{
 .left-login{
     width: 38%;
     background-color: aqua;
+}
+
+#espaco-button-cadastro-login-page{
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: end;
+    margin-top: 8vh;
+}
+
+#cadastro-novo-login-page{
+    color: #D66253;
+}
+
+#cadastro-novo-login-page span{
+    color: #8f3125
+
 }
 
 .right-login{
@@ -1174,126 +1021,7 @@ span{
     padding-top: 5vh;
 }
 
-/*
 
-.left{
-    width: 38%;
-}
-
-.righ{
-    width: 62%;
-    background-color: aliceblue;
-    padding-left: 6%;
-    padding-right: 6%;
-    padding-top: 2%;
-
-}
-
-.inpLogin{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 7vh;
-}
-
-.inpLogin > input{
-    height: 4vh;
-    border: none;
-    border-bottom: 2px solid #E58F84;
-    background-color: transparent;
-    padding-left: 15px;
-    outline: none;
-}
-
-.inpLogin > input:focus{
-    border-bottom: solid 2px #b54a3b;
-    transition: .3s;
-}
-
-
-#infoInferiores{
-    display: flex;
-    justify-content: space-between;
-}
-
-#iconsRedeSocial{
-    display: flex;
-    width: 16%;
-    justify-content: space-around;
-    padding-left: 30px;
-
-}
-
-#googleIcon{
-    background-color: #872323;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-}
-
-#googleIcon:hover{
-    background-color: #b44a4a;
-}
-
-#faceboockIcon{
-    background-color: #b44a4a;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    cursor: pointer;
-}
-
-#faceboockIcon:hover{
-    background-color: #872323;
-}
-
-#esqueciSenha{
-    color: #C05252;
-    width: 11vw;
-    padding-bottom: 50px;
-}
-
-span{
-    color: #872323;
-}
-
-#btnEnviarLogin{
-    margin-top: 5vh;
-    height: 6vh;
-    display: flex;
-    justify-content: center;
-}
-
-#btnEnviarLogin > button{
-    background-color: #D74836;
-    width: 50%;
-    height: 100%;
-    border: none;
-    border-radius: 50px;
-    color: white;
-    font-size: 20px;    
-    font-weight: 500;
-    cursor: pointer;
-    transition: .5s;
-    
-}
-
-#btnEnviarLogin > button:hover{
-    background-color: #872323;
-    
-   
-}
-
-.left{
-   display: flex;
-}
-
-#imagemLoginUser{
-    height: 75vh;
-    margin-top: 5vh;
-}*/
 
 
 /* --------------------------------------------------------- SECTION OPTIONS DONATIONS -------------------------------------------- */

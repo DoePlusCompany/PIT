@@ -69,12 +69,12 @@
     
                             <div class="inputs-group-resiter">
                                 <p>Senha:</p>
-                                <input type="password" name="password" placeholder="Ex: user12344">
+                                <input type="password" name="password" placeholder="* * * * * * * * *">
                             </div>
     
                             <div class="inputs-group-resiter">
                                 <p>Confirmar senha:</p>
-                                <input type="password" name="password_confirmation" placeholder="Ex: user12344">
+                                <input type="password" name="password_confirmation" placeholder="* * * * * * * * *">
                             </div>
 
                         </div>

@@ -30,6 +30,11 @@
                         <input type="password" name="password" placeholder="* * * * * * * * * *">
                     </div>    
                 </div>
+
+                <div id="espaco-button-cadastro-login-page">
+                     <a href="/cadastro" id="cadastro-novo-login-page">Não tem uma conta? <span>realizar cadastro</span></a>
+                </div>
+
                 
     
                 <div id="btnEnviarLogin">

@@ -22,7 +22,10 @@
             </nav>
 
             <div id="hero-main-right">
-            <button id="button-header-home-page">LOGIN</button>
+                <div id="button-div-header-home-page">
+                    <a href="/login" id="button-header-home-page">LOGIN</a>
+                </div>
+          
             
         </div>
             
