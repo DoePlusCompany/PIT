@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsersController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CarrosselController;
+use App\Http\Controllers\SACController;
 
 Route::get('/', function () {
     return view('index');
@@ -42,6 +43,15 @@ Route::get('/users/create', [UsersController::class, 'create'])->name('register.
 Route::post('/users/register', [UsersController::class, 'register'])->name('register');
 
 Route::get('/', [CarrosselController::class, 'index']);
+
+Route::get('/sac/create', [SACController::class, 'create'])->name('sac.create');
+Route::post('/sac/store', [SACController::class, 'store'])->name('sac.store');
+Route::get('/sac', [SACController::class, 'index'])->name('sac.index');
+Route::put('/sac/update/{id}', [SACController::class, 'update'])->name('sac.update');
+Route::post('/sac/solicitacao/{id}/atualizar', [SACController::class, 'update'])->name('sac.update');
+
+
+
 
 
 
