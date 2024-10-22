@@ -6,7 +6,7 @@
 <section id="main-top-home">
     <header id="home-header">
             <nav id="home-header-left">
-                <h2>DOA+</h2>
+                <h2>DOE+</h2>
                 <ul id="home-header-items">
                     <li> <a href="/">Inicio</a></li>
                     
