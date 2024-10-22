@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\CarrosselImage;
 
 class CarrosselController extends Controller
 {
@@ -10,9 +11,9 @@ class CarrosselController extends Controller
     {
         // Imagens do carrossel
         $imagens = [
-            'assets/carrosselImgs/noticia1.png',
-            'assets/carrosselImgs/noticia2.png',
-            'assets/carrosselImgs/noticia3.png',
+            (new CarrosselImage('assets/carrosselImgs/noticia1.png'))->get_image(),
+            (new CarrosselImage('assets/carrosselImgs/noticia2.png'))->get_image(),
+            (new CarrosselImage('assets/carrosselImgs/noticia3.png'))->get_image(),
         ];
 
         // Passar as imagens para a view da página inicial
