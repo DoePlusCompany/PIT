@@ -49,6 +49,8 @@ Route::post('/sac/store', [SACController::class, 'store'])->name('sac.store');
 Route::get('/sac', [SACController::class, 'index'])->name('sac.index');
 Route::put('/sac/update/{id}', [SACController::class, 'update'])->name('sac.update');
 Route::post('/sac/solicitacao/{id}/atualizar', [SACController::class, 'update'])->name('sac.update');
+Route::delete('sac/{id}', [SACController::class, 'destroy'])->name('sac.destroy');
+
 
 
 
