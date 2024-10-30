@@ -49,6 +49,8 @@ class SACController extends Controller
         'status' => 'required|string|max:255',
     ]);
 
+    
+
     // Encontrar a solicitação pelo ID
     $solicitacao = SAC::find($id);
 
@@ -59,5 +61,21 @@ class SACController extends Controller
     // Redirecionar com mensagem de sucesso
     return redirect()->back()->with('success', 'Status da solicitação atualizado com sucesso!');
     }
+
+    public function destroy($id)
+{
+    // Encontrar a solicitação pelo ID
+    $solicitacao = SAC::find($id);
+
+    // Verificar se a solicitação existe e se o status é "Concluída" ou "Cancelada"
+    if ($solicitacao && ($solicitacao->status === 'Concluída' || $solicitacao->status === 'Cancelada')) {
+        $solicitacao->delete();
+        return redirect()->back()->with('success', 'Solicitação excluída com sucesso!');
+    }
+
+    return redirect()->back()->with('error', 'Solicitação não pode ser excluída. O status deve ser "Concluída" ou "Cancelada".');
+}
+
+
 
 }
