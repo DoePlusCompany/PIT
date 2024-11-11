@@ -70,17 +70,19 @@
                 <div id="identifider-bar-OurMission"></div>
                 <div id="OurMission-left">
                     <div id="OurMission-headline">
-                        <h3>Sobre</h3>
-                        <h2>Nossa missão</h2>
+                        <h3>Sobre nós</h3>
+                        <h2>NOSSA MISSÃO</h2>
                         <p>Conectar doadores generosos a causas que transformam vidas,
                             promovendo a solidariedade e o bem-estar social através de
                             um sistema de doações transparente e eficiente.
                         </p>
                     </div>
                     <button>
-                        Learn more
+                        <p>Learn more</p> 
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="12px" fill="white"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg> 
                     </button>
                 </div>
+                
                 <div id="OurMission-right">
                     <img src="assets/ourvisionimg.png" alt="">
                 </div>
@@ -99,7 +101,7 @@
                     CONTRIBUA
                 </h4>
                 <h2>
-                QUERO <span> AJUDAR </span> o próximo
+                QUERO <span> AJUDAR </span> O PROXÍMO
                 </h2>
                 <p>
                 Temos várias categorias de doação disponíveis. Escolha uma das ONGs parceiras e faça sua contribuição! Procure por causas que te toquem ou use 
@@ -117,6 +119,8 @@
                             <div id="user-icon-help"></div>
                             <p>caiosouza@gmail.com</p>
                         </div>
+
+                        <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></div>
                         
 
                     </div>
@@ -132,6 +136,8 @@
                             <div id="user-icon-help-2"></div>
                             <p>caiosouza@gmail.com</p>
                         </div>
+
+                        <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></div>
                         
 
                     </div>
@@ -147,6 +153,8 @@
                             <div id="user-icon-help-3"></div>
                             <p>caiosouza@gmail.com</p>
                         </div>
+
+                        <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></div>
                         
 
                     </div>
