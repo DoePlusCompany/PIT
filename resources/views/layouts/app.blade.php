@@ -42,7 +42,7 @@
 
     @yield('conteudo')
 
-    <section id="footer">
+    <!-- <section id="footer">
             <div id="footer-wrapper">
                 <div id="footer-wrapper-left">
                     <div id="footer-wrapper-itens">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-    </section>
+    </section> -->
 
     </main>
     @vite('resources/js/app.js')
