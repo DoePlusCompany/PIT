@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class SAC extends Model
 {
-    protected $table = 'sac'; // Especifica a tabela associada ao modelo
+    protected $table = 'sac';
     
     protected $fillable = [
         'nome_cliente',

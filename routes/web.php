@@ -5,6 +5,7 @@ use App\Http\Controllers\UsersController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CarrosselController;
 use App\Http\Controllers\SACController;
+use App\Http\Controllers\DonationController;
 
 Route::get('/', function () {
     return view('index');
@@ -50,6 +51,10 @@ Route::get('/sac', [SACController::class, 'index'])->name('sac.index');
 Route::put('/sac/update/{id}', [SACController::class, 'update'])->name('sac.update');
 Route::post('/sac/solicitacao/{id}/atualizar', [SACController::class, 'update'])->name('sac.update');
 Route::delete('sac/{id}', [SACController::class, 'destroy'])->name('sac.destroy');
+
+Route::get('/donations', [DonationController::class, 'index'])->name('donations.index');
+Route::get('/donations/create', [DonationController::class, 'create'])->name('donations.create');
+Route::post('/donations', [DonationController::class, 'store'])->name('donations.store');
 
 
 
