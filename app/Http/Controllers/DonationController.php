@@ -30,9 +30,18 @@ class DonationController extends Controller
     }
     
    
-    public function index()
+    public function index(Request $request)
     {
-        $donations = Donation::all(); 
+        $query = Donation::query();
+    
+        // Verifica se foi passado um tipo de doação para filtrar
+        if ($request->has('donation_type') && $request->donation_type != '') {
+            $query->where('donation_type', $request->donation_type);
+        }
+    
+        // Obtém as doações filtradas ou todas se não houver filtro
+        $donations = $query->get();
+    
         return view('donations.index', compact('donations'));
     }
 
