@@ -29,7 +29,7 @@
             
         </div>
             
-        </header>
+    </header>
 
         <img src="assets/master-home-page.png" alt="">
 

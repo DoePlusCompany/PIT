@@ -6,6 +6,12 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CarrosselController;
 use App\Http\Controllers\SACController;
 use App\Http\Controllers\DonationController;
+use App\Http\Controllers\FaqController;
+
+
+//Dúvidas frequentes
+Route::get('/faq/faqs', [FaqController::class, 'index']);
+
 
 // Página inicial
 Route::get('/', function () {
