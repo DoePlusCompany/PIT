@@ -94,6 +94,8 @@
                 <h3>{{ $donation->title }}</h3>
                 <p>{{ $donation->description }}</p>
                 <p>{{ $donation->donation_type }}</p>
+                <p>{{ $donation->name_ong }}</p>
+                <p>{{ $donation->chave_pix }}</p>
                 <a href="{{ route('doacao.show', $donation->id) }}">
                     <button>Ver mais</button>
                 </a>

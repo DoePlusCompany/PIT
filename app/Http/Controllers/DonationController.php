@@ -19,6 +19,8 @@ class DonationController extends Controller
             'title' => 'required|string|max:255',
             'description' => 'required',
             'donation_type' => 'required|string',
+            'name_ong'  => 'required|string',
+            'chave_pix' => 'nullable|string',
         ]);
     
         $donation = new Donation($request->all());
@@ -35,10 +37,9 @@ class DonationController extends Controller
     }
 
     public function show($id)
-    {
-        $donation = Donation::findOrFail($id);
-        return view('donations.show', compact('donation'));
-    }
-
+{
+    $donation = Donation::findOrFail($id);
+    return view('donations.show', compact('donation'));
+}
 
 }
