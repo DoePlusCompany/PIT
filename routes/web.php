@@ -7,6 +7,7 @@ use App\Http\Controllers\CarrosselController;
 use App\Http\Controllers\SACController;
 use App\Http\Controllers\DonationController;
 use App\Http\Controllers\FaqController;
+use App\Http\Controllers\UserProfileController;
 
 
 //Dúvidas frequentes
@@ -91,3 +92,10 @@ Route::post('/donations', [DonationController::class, 'store'])->name('donations
 
 // Rota GET para exibir os detalhes de uma doação específica
 Route::get('/doacao/{id}', [DonationController::class, 'show'])->name('doacao.show');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [UserProfileController::class, 'showProfile'])->name('profile.show');
+    Route::post('/logout', [UserProfileController::class, 'logout'])->name('logout');
+    Route::get('/profile/edit', [UserProfileController::class, 'editProfile'])->name('profile.edit');
+    Route::post('/profile/update', [UserProfileController::class, 'updateProfile'])->name('profile.update');
+});
