@@ -8,9 +8,6 @@
     
     <label for="donation_type">Tipo da doeação:</label>
     <input type="text" name="donation_type" required>
-
-    <label for="image">Imagem:</label>
-    <input type="file" name="image">
-
+    
     <button type="submit">Criar Doação</button>
 </form>

@@ -55,6 +55,7 @@ Route::delete('sac/{id}', [SACController::class, 'destroy'])->name('sac.destroy'
 Route::get('/donations', [DonationController::class, 'index'])->name('donations.index');
 Route::get('/donations/create', [DonationController::class, 'create'])->name('donations.create');
 Route::post('/donations', [DonationController::class, 'store'])->name('donations.store');
+Route::get('/doacao/{id}', [DonationController::class, 'show'])->name('doacao.show');
 
 
 

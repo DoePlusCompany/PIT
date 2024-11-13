@@ -22,12 +22,6 @@ class DonationController extends Controller
         ]);
     
         $donation = new Donation($request->all());
-    
-        if ($request->hasFile('image')) {
-            $path = $request->file('image')->store('images', 'public');
-            $donation->image = $path;
-        }
-    
         $donation->save();
     
         return redirect()->route('donations.index')->with('success', 'Doação criada com sucesso!');
@@ -39,5 +33,12 @@ class DonationController extends Controller
         $donations = Donation::all(); 
         return view('donations.index', compact('donations'));
     }
+
+    public function show($id)
+    {
+        $donation = Donation::findOrFail($id);
+        return view('donations.show', compact('donation'));
+    }
+
 
 }

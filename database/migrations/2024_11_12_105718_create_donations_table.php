@@ -14,7 +14,6 @@ return new class extends Migration
             $table->string('title');
             $table->text('description');
             $table->text('donation_type');
-            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
