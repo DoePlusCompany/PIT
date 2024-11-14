@@ -1,0 +1,52 @@
+#OurInformation {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#OurInformation-wrapper-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    width: 60%;
+}
+
+#OurInformation-wrapper-left div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#OurInformation-wrapper-left-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.OurInformation-itens {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.OurInformation-itens p{
+    color: #5A5A5A;
+    font-size: 20px;
+}
+
+#OurInformation-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#OurInformation-wrapper-right {
+    background-color: #c1c5ca;
+    width: 100%;
+}
+
+#OurInformation-wrapper-left-itens h4{
+    font-size: 18px;
+}
+

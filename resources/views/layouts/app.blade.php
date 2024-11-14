@@ -20,9 +20,17 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     @vite('resources/css/app.css')
+    @vite('resources/css/home.css')
+    @vite('resources/css/contact.css')
+    @vite('resources/css/footer.css')
+    @vite('resources/css/cadastro.css')
+    @vite('resources/css/login.css')
+    @vite('resources/css/donationsOptions.css')
+    @vite('resources/css/testmonials.css')
+
 
 </head>
-
+    
 <body>
     <main>
 

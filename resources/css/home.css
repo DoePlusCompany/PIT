@@ -1,0 +1,579 @@
+.container {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #414140;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #E1B926;
+}
+
+#background {
+    height: 110vh;
+    width: 100%;
+    background-color: #EDEDED;
+    position: absolute;
+}
+
+#main-top-home{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+#main-top-home img{
+    width: 90%;
+}
+
+#button-main-top-home{
+    width: 15vw;
+    height: 4vh;
+    background-color: #E1B926;
+    position: absolute;
+    left: 18%;
+    top: 58%;
+    border: none;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: white;
+    
+}
+
+#button-main-top-home:hover{
+    background-color:#e17a26;
+    transition: .4s;
+    cursor: pointer;
+
+}
+
+#home-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding-top: 1vh;
+    background-color: transparent;
+    position: absolute;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+
+#home-header-left {
+    width: 100%;
+    max-width: 22vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+
+#home-header-left h2 {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 12vw;
+
+}
+
+#home-header-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+#home-header-items li a {
+    list-style: none;
+    color: #000000;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+#button-div-header-home-page{
+    background-color: #e19f26;
+    border: none;
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    width: 11vw;
+    height: 3vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    cursor: pointer;
+
+}
+
+
+#button-header-home-page{
+    font-weight: bold;
+    font-size: 12px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+
+
+} 
+
+#back-top-home-page{
+    width: 14vw;
+    height: 4vh;
+    background-color: #e19f26;
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 40%;
+
+
+}
+
+#back-top-home-page a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    padding-top: 1vh;
+}
+
+/* IMAGENS */
+
+#imagens {
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+    height: 30vh;
+}
+
+#imagens img {
+    width: 100%;
+}
+
+/*---------------------------------------------- ourMission --------------------------------------------*/
+
+.container-OurMission {
+    width: 80%;
+
+}
+
+#OurMission {
+    width: 100%;
+    margin-top: 20vh;
+}
+
+#OurMission-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 45px;
+}
+
+#OurMission-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#OurMission-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 14px;
+    max-width: 612px;
+}
+
+#OurMission-headline h3 {
+    font-size: 20px;
+    color:#E1B926;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+#OurMission-headline h2 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+#OurMission-headline p {
+    color: #585454;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    max-width: 500px;
+}
+
+#OurMission-left button {
+    background-color: #E1B926;
+    width: 15vw;
+    height: 4vh;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-right: 5%;
+    padding-left: 8%;
+
+}
+
+#OurMission-right img{
+    border-radius: 0px 20px 20px 0px;
+    height: 60vh;
+    width: 30vw;
+}
+
+#identifider-bar-OurMission{
+    background-color: #DF5D4C;
+    height: 60vh;
+    width: 3vw;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+
+ #help-container{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-top: 20vh;
+ }
+
+ #identifider-bar-help{
+    background-color: #DD9F27;
+    height: 100%;
+    width: 3vw;
+    border-radius: 20px 0px 0px 20px;
+
+
+}
+
+#main-bar-help{
+    height: 100%;
+    width: 4%;
+    display: flex;
+    justify-content: end;
+}
+
+#main-help{
+
+    width: 96%;
+    height: 100%;
+}
+
+#Help-wrapper {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Help-wrapper-top{
+    width: 100%;
+    padding-left: 5%;
+    height: 25%;
+
+}
+
+#Help-wrapper-bottom{
+    width: 100%;
+    height: 75%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-help{
+    background-color: #F9F9F9;
+    height: 90%;
+    width: 29%;
+    box-shadow: 5px 5px 20px #BBBBBB;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 3%;
+}
+
+.card-help h1{
+    color: #000000;
+    margin-bottom: 5%;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.card-help h2{
+    color: #6A6A6A;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20%;
+}
+
+.info-help-card{
+    height: 80%;
+    margin-left: 15%;
+}
+
+.arrow-card-help{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 50%;
+    padding-right: 12%;
+}
+
+#identifider-line-help{
+    background-color: #60AC9C;
+    width: 70%;
+    height: 5%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    
+}
+
+#identifider-line-help-2{
+    background-color: #E1B926;
+    width: 70%;
+    height: 5%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    
+}
+
+#identifider-line-help-3{
+    background-color: #D74836;
+    width: 70%;
+    height: 5%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    
+}
+
+.user-email-help{
+    display: flex;
+    height: 4vh;
+    
+}
+
+#user-icon-help{
+    background-color: #60AC9C;
+    height: 95%;
+    width: 9%;
+    border-radius: 50%;
+    margin-right: 6%;
+}
+
+#user-icon-help-2{
+    background-color: #E1B926;
+    height: 95%;
+    width: 9%;
+    border-radius: 50%;
+    margin-right: 6%;
+}
+
+#user-icon-help-3{
+    background-color: #D74836;
+    height: 95%;
+    width: 9%;
+    border-radius: 50%;
+    margin-right: 6%;
+}
+
+#Help-wrapper-top h4 {
+    font-size: 18px;
+    color:#E1B926;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 1%;
+}
+
+#Help-wrapper-top h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    color: #000000;
+}
+
+#Help-wrapper-top span {
+    color:#E1B926;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+#Help-wrapper-top p {
+    color: #313131;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-align: justify;
+    max-width: 850px;
+    margin-top: 2%;
+}
+
+
+/*---------------------------------------------- Blog --------------------------------------------*/
+
+
+#blog {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+    margin-top: 200px;
+
+    @media (max-width: 1920px) {
+        max-width: 1548px;
+    }
+}
+
+#wrapper-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#wrapper-blog-top {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+#wrapper-blog-top h3 {
+    font-weight: bold;
+    color: #D66253;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+}
+
+#wrapper-blog-top h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+    font-family: "Sora", sans-serif;
+}
+
+#wrapper-blog-top p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Sora", sans-serif;
+    color: #6a6a6a;  
+}
+
+
+#sub-wrapper-blog-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#sub-wrapper-blog-bottom-right {
+    width: 80%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+
+#sub-01 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-01 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-01 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+#sub-02 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-02 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-02 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+#sub-03 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#sub-03 div {
+    background-color: #6d6d6d;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#sub-03 p {
+    width: 100%;
+    font-family: "Sora", sans-serif;
+}
+
+
+#sub-wrapper-blog-bottom-left {
+    width: 100%; /* Certifique-se de que ocupa toda a largura do espaço */
+    height: auto; /* Permite que a altura se ajuste ao conteúdo */
+    
+}
+
+/* CSS antigo do elemento acima
+
+#sub-wrapper-blog-bottom-left {
+    width: 100%;
+    background-color: #8a8a8a;
+    height: 50vh; 
+    border-radius: 10px;
+}
+*/
+
+#carouselExample {
+    width: 100%; /* Use 100% para ocupar todo o espaço */
+    height: auto; /* Permita que a altura se ajuste automaticamente */
+}
+
+.carousel-item img {
+    width: 100%; /* Assegura que a imagem ocupe a largura total do item do carrossel */
+    height: auto; /* Tamanho anterior 50vh -- A altura se ajusta automaticamente para manter a proporção */
+    object-fit: cover; /* Cobre o espaço mantendo a proporção */
+}
+
+
