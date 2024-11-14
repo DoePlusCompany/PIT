@@ -27,6 +27,7 @@
     @vite('resources/css/login.css')
     @vite('resources/css/donationsOptions.css')
     @vite('resources/css/testmonials.css')
+    @vite('resources/css/cardDonation.css')
 
 
 </head>
