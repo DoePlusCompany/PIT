@@ -1,11 +1,21 @@
 @extends('layouts.app')
 
 @section('conteudo')
+<!-- Modal de erros -->
 @if($errors->any())
-    @foreach($errors->all() as $e)
-        <p>{{ $e }}</p>
-    @endforeach
+    <div id="errorModal" class="modal" style="display:block;">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Erros</h2>
+            <div id="errorMessages">
+                @foreach($errors->all() as $e)
+                    <p>{{ $e }}</p>
+                @endforeach
+            </div>
+        </div>
+    </div>
 @endif
+
 <main id="main-login">
 
     <section id="login-container-main">
@@ -35,19 +45,35 @@
                      <a href="/cadastro" id="cadastro-novo-login-page">Não tem uma conta? <span>realizar cadastro</span></a>
                 </div>
 
-                
-    
                 <div id="btnEnviarLogin">
                     <button type="submit">Entrar</button>
                 </div>
             </form>
         </div>
-
-
     </section>
-
-
-    
 </main>
 
 @endsection
+
+<script>
+// Esperar o carregamento completo do DOM
+document.addEventListener('DOMContentLoaded', function() {
+    // Verificar se há erros
+    @if($errors->any())
+        var modal = document.getElementById("errorModal");
+        var closeButton = document.getElementsByClassName("close-btn")[0];
+
+        // Fechar o modal ao clicar no "X"
+        closeButton.onclick = function() {
+            modal.style.display = "none";
+        };
+
+        // Fechar o modal ao clicar fora dele
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    @endif
+});
+</script>
