@@ -1,17 +1,7 @@
 @extends('layouts.app')
 
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enviar Solicitação - SAC</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
-</head>
-
 <body>
-    <header id="home-header">
+    <header id="home-header-sac-create">
         <nav id="home-header-left">
             <h2>DOE+</h2>
             <ul id="home-header-items">
@@ -30,7 +20,7 @@
     </header>
 
     <div class="container">
-        <h2>Enviar Solicitação - SAC</h2>
+        <h2>Formulário de Contato - SAC</h2>
         <p>Entre em contato conosco preenchendo o formulário abaixo. Responderemos o mais breve possível.</p>
 
         <!-- Mensagem de sucesso -->
@@ -81,7 +71,56 @@
         </form>
     </div>
 
+    <section id="footer">
+            <div id="footer-wrapper">
+                <div id="footer-wrapper-left">
+                    <div id="footer-wrapper-itens">
+                        <ul>
+                            <li>Siga-nos</li>
+                            
+                            <li>WhatsApp</li>
+                            <li>Instagram</li>
+                            <li>Linkedin</li>
+                            <li>Facebook</li>
+                            <li>TikTok</li>
+                        </ul>
+                        <ul>
+                            <li>Idealizadores</li>
+
+                            <li>Arthur Martins</li>
+                            <li>Daniel Isaac</li>
+                            <li>Caio de Souza</li>
+                            <li>Davi Lavarini</li>
+                            <li>Kauan Gabriel</li>
+                        </ul>
+                        <ul>
+                            <li>Links rápidos</li>
+
+                            <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
+                            <li><a class="speedlinks" href="/sac/create">SAC</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                            <li><a class="speedlinks" href="">Pages</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="footer-wrapper-right">
+                    <div id="fale-conosco">
+                        <h2>
+                            Fale conosco
+                        </h2>
+                        <div>
+                            <p>
+                                Email: teste@gmail.com
+                            </p>
+                            <p>
+                                Telefone: telefone@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
 
 </body>
-
-</html>

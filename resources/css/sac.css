@@ -1,0 +1,88 @@
+/* Estilo global da página */
+body {
+    background-color: #f0f4f8;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Container principal */
+.container-sac {
+    margin-top: 60px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da tabela */
+.container-sac h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo das mensagens */
+.container-sac .alert {
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Estilo da tabela */
+.container-sac table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container-sac thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+}
+
+.container-sac tbody tr:hover {
+    background-color: #f1f9ff;
+    transition: background-color 0.3s ease;
+}
+
+.container-sac td,
+.container-sac th {
+    padding: 12px;
+    text-align: center;
+}
+
+.container-sac td {
+    border: 1px solid #ddd;
+}
+
+/* Botões */
+.container-sac .btn {
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.container-sac .btn-primary-sac {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.container-sac .btn-primary-sac:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    color: #fff;
+}
+
+.container-sac .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.container-sac .btn-danger:hover {
+    background-color: #dc3545;
+    transform: scale(1.05);
+}
+

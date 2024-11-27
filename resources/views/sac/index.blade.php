@@ -1,99 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Solicitações - SAC</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        /* Estilo global da página */
-        body {
-            background-color: #f0f4f8;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+@extends('layouts.app')
 
-        /* Container principal */
-        .container {
-            margin-top: 60px;
-            background-color: #fff;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Título da tabela */
-        h1 {
-            font-size: 28px;
-            font-weight: 600;
-            color: #007bff;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        /* Estilo das mensagens */
-        .alert {
-            border-radius: 8px;
-            font-size: 16px;
-            text-align: center;
-        }
-
-        /* Estilo da tabela */
-        table {
-            width: 100%;
-            margin-top: 20px;
-        }
-
-        thead th {
-            background-color: #007bff;
-            color: white;
-            padding: 15px;
-            border: none;
-        }
-
-        tbody tr:hover {
-            background-color: #f1f9ff;
-            transition: background-color 0.3s ease;
-        }
-
-        td, th {
-            padding: 12px;
-            text-align: center;
-        }
-
-        td {
-            border: 1px solid #ddd;
-        }
-
-        /* Botões */
-        .btn {
-            border-radius: 6px;
-            font-size: 14px;
-            padding: 8px 12px;
-            transition: background-color 0.3s ease, transform 0.2s ease;
-        }
-
-        .btn-primary:hover {
-            background-color: #0056b3;
-            transform: scale(1.05);
-        }
-
-        .btn-danger:hover {
-            background-color: #dc3545;
-            transform: scale(1.05);
-        }
-
-        /* Rodapé */
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 14px;
-            color: #999;
-        }
-    </style>
-</head>
 <body>
 
-<div class="container">
+<div class="container-sac">
     <h1>Lista de Solicitações</h1>
 
     @if(session('success'))
@@ -140,7 +49,7 @@
                             <option value="Concluída">Concluída</option>
                             <option value="Cancelada">Cancelada</option>
                         </select>
-                        <button type="submit" class="btn btn-primary">Atualizar</button>
+                        <button type="submit" class="btn btn-primary-sac">Atualizar</button>
                     </form>
 
                     <form action="{{ route('sac.destroy', $solicitacao->id) }}" method="POST" style="display:inline;">
