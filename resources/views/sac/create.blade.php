@@ -72,54 +72,54 @@
     </div>
 
     <section id="footer">
-            <div id="footer-wrapper">
-                <div id="footer-wrapper-left">
-                    <div id="footer-wrapper-itens">
-                        <ul>
-                            <li>Siga-nos</li>
-                            
-                            <li>WhatsApp</li>
-                            <li>Instagram</li>
-                            <li>Linkedin</li>
-                            <li>Facebook</li>
-                            <li>TikTok</li>
-                        </ul>
-                        <ul>
-                            <li>Idealizadores</li>
+        <div id="footer-wrapper">
+            <div id="footer-wrapper-left">
+                <div id="footer-wrapper-itens">
+                    <ul>
+                        <li>Siga-nos</li>
 
-                            <li>Arthur Martins</li>
-                            <li>Daniel Isaac</li>
-                            <li>Caio de Souza</li>
-                            <li>Davi Lavarini</li>
-                            <li>Kauan Gabriel</li>
-                        </ul>
-                        <ul>
-                            <li>Links rápidos</li>
+                        <li>WhatsApp</li>
+                        <li>Instagram</li>
+                        <li>Linkedin</li>
+                        <li>Facebook</li>
+                        <li>TikTok</li>
+                    </ul>
+                    <ul>
+                        <li>Idealizadores</li>
 
-                            <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
-                            <li><a class="speedlinks" href="/sac/create">SAC</a></li>
-                            <li><a class="speedlinks" href="">Pages</a></li>
-                            <li><a class="speedlinks" href="">Pages</a></li>
-                            <li><a class="speedlinks" href="">Pages</a></li>
-                        </ul>
-                    </div>
+                        <li>Arthur Martins</li>
+                        <li>Daniel Isaac</li>
+                        <li>Caio de Souza</li>
+                        <li>Davi Lavarini</li>
+                        <li>Kauan Gabriel</li>
+                    </ul>
+                    <ul>
+                        <li>Links rápidos</li>
+
+                        <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
+                        <li><a class="speedlinks" href="/sac/create">SAC</a></li>
+                        <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
+                        <li><a class="speedlinks" href="">Pages</a></li>
+                        <li><a class="speedlinks" href="">Pages</a></li>
+                    </ul>
                 </div>
-                <div id="footer-wrapper-right">
-                    <div id="fale-conosco">
-                        <h2>
-                            Fale conosco
-                        </h2>
-                        <div>
-                            <p>
-                                Email: teste@gmail.com
-                            </p>
-                            <p>
-                                Telefone: telefone@gmail.com
-                            </p>
-                        </div>
+            </div>
+            <div id="footer-wrapper-right">
+                <div id="fale-conosco">
+                    <h2>
+                        Fale conosco
+                    </h2>
+                    <div>
+                        <p>
+                            Email: doepluscompany@gmail.com
+                        </p>
+                        <p>
+                            Telefone: (31) 99700-2244
+                        </p>
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
 

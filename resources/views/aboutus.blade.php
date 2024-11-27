@@ -102,7 +102,7 @@
 
                     <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
                     <li><a class="speedlinks" href="/sac/create">SAC</a></li>
-                    <li><a class="speedlinks" href="">Pages</a></li>
+                    <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
                     <li><a class="speedlinks" href="">Pages</a></li>
                     <li><a class="speedlinks" href="">Pages</a></li>
                 </ul>
@@ -115,10 +115,10 @@
                 </h2>
                 <div>
                     <p>
-                        Email: teste@gmail.com
+                        Email: doepluscompany@gmail.com
                     </p>
                     <p>
-                        Telefone: telefone@gmail.com
+                        Telefone: (31) 99700-2244
                     </p>
                 </div>
             </div>

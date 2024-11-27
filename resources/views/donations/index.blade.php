@@ -68,18 +68,20 @@
 
 
                 <!-- <div class="card">
-                        <h3>{{ $donation->title }}</h3>
-                        <p>{{ $donation->description }}</p>
-                        <p><strong>Tipo:</strong> {{ $donation->donation_type }}</p>
-                        <p><strong>Nome da ONG:</strong> {{ $donation->name_ong }}</p>
-                        <p><strong>Chave Pix:</strong> {{ $donation->chave_pix }}</p>
-                        <a href="{{ route('doacao.show', $donation->id) }}">
-                            <button>Ver mais</button>
-                        </a>
-                    </div> -->
+                            <h3>{{ $donation->title }}</h3>
+                            <p>{{ $donation->description }}</p>
+                            <p><strong>Tipo:</strong> {{ $donation->donation_type }}</p>
+                            <p><strong>Nome da ONG:</strong> {{ $donation->name_ong }}</p>
+                            <p><strong>Chave Pix:</strong> {{ $donation->chave_pix }}</p>
+                            <a href="{{ route('doacao.show', $donation->id) }}">
+                                <button>Ver mais</button>
+                            </a>
+                        </div> -->
             @endforeach
         </div>
 
     </main>
 
 </body>
+
+@endsection

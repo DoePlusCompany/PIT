@@ -21,7 +21,6 @@
                     <a href="/login" id="button-header-home-page">LOGIN</a>
                 </div>
         </header>
-
         <img src="assets/master-home-page.png" alt="">
 
         <button id="button-main-top-home">CONTRIBUIR</button>
@@ -56,7 +55,7 @@
                         </p>
                     </div>
                     <button>
-                        <p>Learn more</p>
+                        <p>Saiba mais</p>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="12px"
                             fill="white"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path
@@ -294,7 +293,7 @@
 
                         <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
                         <li><a class="speedlinks" href="/sac/create">SAC</a></li>
-                        <li><a class="speedlinks" href="">Pages</a></li>
+                        <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
                         <li><a class="speedlinks" href="">Pages</a></li>
                         <li><a class="speedlinks" href="">Pages</a></li>
                     </ul>
@@ -307,10 +306,10 @@
                     </h2>
                     <div>
                         <p>
-                            Email: teste@gmail.com
+                            Email: doepluscompany@gmail.com
                         </p>
                         <p>
-                            Telefone: telefone@gmail.com
+                            Telefone: (31) 99700-2244
                         </p>
                     </div>
                 </div>
@@ -318,4 +317,4 @@
         </div>
     </section>
 
-@endsection
+    @endsection

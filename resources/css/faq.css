@@ -1,0 +1,28 @@
+#home-header-faq {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding-top: 1vh;
+    background-color: transparent;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.container-faq {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#section-faq {
+    margin-top: 80px;
+}
