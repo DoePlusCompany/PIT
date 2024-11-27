@@ -1,54 +1,76 @@
-#main-content {
+/* Estilos principais para a estrutura da página */
+.about-us-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
     padding: 1rem;
 }
 
-#history-paragraph-1, #history-paragraph-2{
-    margin-top: 0;
+/* Estilo para os títulos principais */
+.section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #333;
+    text-align: center;
 }
 
-.founder-profile{
+/* Estilo para os parágrafos de história */
+.history-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: justify;
+}
+
+/* Estilo para as seções de Fundadores */
+.section-founders {
+    margin-top: 40px;
+}
+
+.founder-profile {
     background-color: #fff;
     border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
+.founder-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Nome dos fundadores */
 .founder-name {
-    margin-top: 0;
-}
-
-#section-history{
-    padding-top: 128px;
-}
-
-#history-heading{
-    padding-bottom: 16px;
-}
-
-#section-founders{
-    padding-top: 64px;
-}
-
-#founders-heading{
-    padding-bottom: 16px;
-}
-
-#buttonVoltar {
-    background-color: #E1B926;
-    padding: 6px 34px;
-    border: none;
-    border-radius: 10px;
+    font-size: 1.3rem;
     font-weight: bold;
-    font-size: 16px;
-    font-family: "Sora", sans-serif;
-}  
-
-#a{
-    color: white;
+    color: #333;
+    margin-bottom: 8px;
 }
 
-#DivButtonVoltar{
-    text-align: center;
-    padding-top: 64px;
+/* Biografia dos fundadores */
+.founder-bio {
+    font-size: 1rem;
+    color: #777;
+}
+
+#home-header-about-us {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    padding-top: 1vh;
+    background-color: transparent;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
