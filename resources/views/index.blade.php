@@ -219,6 +219,10 @@
         </div>
     </section>
 
+    <!-- fim da secao de blog -->
+
+    <!-- Inicio da secao de depoimentos -->
+
     <section>
         <!-- Testimonials Section -->
         <div class="container-testimonials">
@@ -256,12 +260,62 @@
         </div>
     </section>
 
+    <!-- Fim da secao de depoimentos -->
+
     <section id="back-top-home-page">
         <a href="#" id="button-back-top-home-page">VOLTAR AO TOPO</a>
 
     </section>
 
+    <section id="footer">
+        <div id="footer-wrapper">
+            <div id="footer-wrapper-left">
+                <div id="footer-wrapper-itens">
+                    <ul>
+                        <li>Siga-nos</li>
 
-    <!-- fim da secao de blog -->
+                        <li>WhatsApp</li>
+                        <li>Instagram</li>
+                        <li>Linkedin</li>
+                        <li>Facebook</li>
+                        <li>TikTok</li>
+                    </ul>
+                    <ul>
+                        <li>Idealizadores</li>
 
-    @endsection
+                        <li>Arthur Martins</li>
+                        <li>Daniel Isaac</li>
+                        <li>Caio de Souza</li>
+                        <li>Davi Lavarini</li>
+                        <li>Kauan Gabriel</li>
+                    </ul>
+                    <ul>
+                        <li>Links rápidos</li>
+
+                        <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
+                        <li><a class="speedlinks" href="/sac/create">SAC</a></li>
+                        <li><a class="speedlinks" href="">Pages</a></li>
+                        <li><a class="speedlinks" href="">Pages</a></li>
+                        <li><a class="speedlinks" href="">Pages</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="footer-wrapper-right">
+                <div id="fale-conosco">
+                    <h2>
+                        Fale conosco
+                    </h2>
+                    <div>
+                        <p>
+                            Email: teste@gmail.com
+                        </p>
+                        <p>
+                            Telefone: telefone@gmail.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+@endsection
