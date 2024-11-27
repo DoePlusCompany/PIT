@@ -127,8 +127,11 @@
 
 #main-center-donations h1{
     font-size: 20px;
-    padding-left: 15%;
     color: rgb(0, 0, 0);
+}
+
+.titulo-h1{
+    padding-left: 10%;
 }
 
 
@@ -217,7 +220,7 @@
 
 .button-card-donation button{
     background-color: #60AC9C;
-    width: 55%;
+    padding: 20px;
     height: 100%;
     border-radius: 30px;
     border: none;
@@ -225,13 +228,15 @@
     font-weight: 600;
     color: white;
     cursor: pointer;
-     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
 
 .button-card-donation button:hover{
     background-color: #4f9586;
-    transition: .4s;
-    
+    transition: .4s;   
 }
 
 .grid-container{

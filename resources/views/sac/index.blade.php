@@ -25,9 +25,16 @@
         h1 {
             font-size: 28px;
             font-weight: 600;
-            color: #333;
+            color: #007bff;
             text-align: center;
             margin-bottom: 20px;
+        }
+
+        /* Estilo das mensagens */
+        .alert {
+            border-radius: 8px;
+            font-size: 16px;
+            text-align: center;
         }
 
         /* Estilo da tabela */
@@ -36,16 +43,43 @@
             margin-top: 20px;
         }
 
-        th {
+        thead th {
             background-color: #007bff;
             color: white;
+            padding: 15px;
+            border: none;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f9ff;
+            transition: background-color 0.3s ease;
+        }
+
+        td, th {
             padding: 12px;
-            border-radius: 8px;
+            text-align: center;
         }
 
         td {
-            padding: 12px;
             border: 1px solid #ddd;
+        }
+
+        /* Botões */
+        .btn {
+            border-radius: 6px;
+            font-size: 14px;
+            padding: 8px 12px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .btn-danger:hover {
+            background-color: #dc3545;
+            transform: scale(1.05);
         }
 
         /* Rodapé */
@@ -90,11 +124,17 @@
                 <td>{{ $solicitacao->nome_cliente }}</td>
                 <td>{{ $solicitacao->email_cliente }}</td>
                 <td>{{ $solicitacao->mensagem }}</td>
-                <td>{{ $solicitacao->status }}</td>
+                <td>
+                    <span class="badge 
+                        {{ $solicitacao->status == 'Em andamento' ? 'badge-warning' : 
+                           ($solicitacao->status == 'Concluída' ? 'badge-success' : 'badge-secondary') }}">
+                        {{ $solicitacao->status }}
+                    </span>
+                </td>
                 <td>
                     <form action="{{ route('sac.update', $solicitacao->id) }}" method="POST" style="display:inline;">
                         @csrf
-                        <select name="status" required>
+                        <select name="status" class="form-control mb-2" required>
                             <option value="">Selecione o status</option>
                             <option value="Em andamento">Em andamento</option>
                             <option value="Concluída">Concluída</option>
@@ -106,7 +146,9 @@
                     <form action="{{ route('sac.destroy', $solicitacao->id) }}" method="POST" style="display:inline;">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir esta solicitação? Apenas solicitações com status "Concluída" ou "Cancelada" podem ser excluídas.');">Excluir</button>
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Tem certeza que deseja excluir esta solicitação? Apenas solicitações com status "Concluída" ou "Cancelada" podem ser excluídas.');">
+                            Excluir
+                        </button>
                     </form>
                 </td>
             </tr>
@@ -116,25 +158,17 @@
 </div>
 
 <script>
-    // Função para ocultar mensagens após 5 segundos
+    // Função para ocultar mensagens após 3 segundos
     window.onload = function() {
         setTimeout(function() {
             const successMessage = document.getElementById('success-message');
             const errorMessage = document.getElementById('error-message');
 
-            if (successMessage) {
-                successMessage.style.display = 'none';
-            }
-
-            if (errorMessage) {
-                errorMessage.style.display = 'none';
-            }
+            if (successMessage) successMessage.style.display = 'none';
+            if (errorMessage) errorMessage.style.display = 'none';
         }, 3000); // 3000 milissegundos = 3 segundos
     };
 </script>
 
-
-
 </body>
 </html>
-

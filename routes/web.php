@@ -30,18 +30,8 @@ Route::get('/aboutus', function () {
 });
 
 // Página de contato
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-// Página de opções (exemplo de página de opções para usuários)
-Route::get('/options', function () {
-    return view('options');
-});
-
-// Página de depoimentos
-Route::get('/testimonials', function () {
-    return view('testimonials');
+Route::get('/sac/create', function () {
+    return view('/sac/create');
 });
 
 // Rota GET para exibir o formulário de login
