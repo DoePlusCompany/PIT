@@ -10,7 +10,6 @@ Criar um ambiente onde doadores possam oferecer ajuda de maneira prática e intu
 - Registro de doações.  
 - Listagem e busca de campanhas ativas.  
 - Detalhes de campanhas, incluindo metas e progresso.  
-- Sistema de notificação para atualizações sobre campanhas.  
 
 ## 🛠️ Tecnologias Utilizadas  
 - **Backend**: PHP com Laravel.  
