@@ -53,30 +53,16 @@
                     <div class="line-donation-card"></div>
 
                     <div class="second-section-card">
-                        <h2>Telefone - (31) 91234-5678</h2>
+                        <h2>Telefone - {{ $donation->phone}}</h2>
                         <h3>Chave Pix -{{ $donation->chave_pix }}</h3>
                     </div>
 
                     <div class="button-card-donation">
                         <a href="{{ route('doacao.show', $donation->id) }}">
-                            <button>Ver mais</button>
+                            <button>Ver mais</button>   
                         </a>
                     </div>
-
-
                 </div>
-
-
-                <!-- <div class="card">
-                            <h3>{{ $donation->title }}</h3>
-                            <p>{{ $donation->description }}</p>
-                            <p><strong>Tipo:</strong> {{ $donation->donation_type }}</p>
-                            <p><strong>Nome da ONG:</strong> {{ $donation->name_ong }}</p>
-                            <p><strong>Chave Pix:</strong> {{ $donation->chave_pix }}</p>
-                            <a href="{{ route('doacao.show', $donation->id) }}">
-                                <button>Ver mais</button>
-                            </a>
-                        </div> -->
             @endforeach
         </div>
 

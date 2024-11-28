@@ -33,6 +33,9 @@
             <p><strong>Descrição:</strong> {{ $donation->description }}</p>
             <p><strong>Nome da Ong:</strong> {{ $donation->name_ong }}</p>
             <p><strong>Chave pix:</strong> {{ $donation->chave_pix }}</p>
+            <p><strong>Telefone:</strong> {{ $donation->phone }}</p>
+            <p><strong>Email:</strong> {{ $donation->email }}</p>
+            <p><strong>Endereço:</strong> {{ $donation->address }}</p>
             <a href="{{ url()->previous() }}">Voltar para a lista</a>
         </div>
     </section>
@@ -66,7 +69,8 @@
                         <li><a class="speedlinks" href="/sac/create">SAC</a></li>
                         <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
                         <li><a class="speedlinks" href="">Pages</a></li>
-                        <li><a class="speedlinks" href="">Pages</a></li>
+                        <li><a class="speedlinks" href="/donations">Doações</a></li>
+                        <li><a class="speedlinks" href="/profile">Perfil de Usuário</a></li>
                     </ul>
                 </div>
             </div>

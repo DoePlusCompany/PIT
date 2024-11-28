@@ -14,7 +14,10 @@ class Donation extends Model
         'description', 
         'donation_type',
         'name_ong',       
-        'chave_pix',      
+        'chave_pix',
+        'phone',
+        'email',
+        'address'
     ];
 
 }

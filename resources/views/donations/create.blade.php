@@ -44,6 +44,15 @@
         
             <label for="chave_pix">Chave Pix:</label>
             <input type="text" name="chave_pix" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="text" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="text" name="email" required>
+
+            <label for="address">Endereço:</label>
+            <input type="text" name="address" required>
             
             <button type="submit">CRIAR DOAÇÃO</button>
         </form>
@@ -78,8 +87,8 @@
                     <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
                     <li><a class="speedlinks" href="/sac/create">SAC</a></li>
                     <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
-                    <li><a class="speedlinks" href="">Pages</a></li>
-                    <li><a class="speedlinks" href="">Pages</a></li>
+                    <li><a class="speedlinks" href="/donations">Doações</a></li>
+                    <li><a class="speedlinks" href="/profile">Perfil de Usuário</a></li>
                 </ul>
             </div>
         </div>
