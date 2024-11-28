@@ -103,8 +103,8 @@
                     <li><a class="speedlinks" href="/aboutus">Sobre Nós</a></li>
                     <li><a class="speedlinks" href="/sac/create">SAC</a></li>
                     <li><a class="speedlinks" href="/faq/faqs">Dúvidas frequentes</a></li>
-                    <li><a class="speedlinks" href="">Pages</a></li>
-                    <li><a class="speedlinks" href="">Pages</a></li>
+                    <li><a class="speedlinks" href="/donations">Doações</a></li>
+                    <li><a class="speedlinks" href="/profile">Perfil de Usuário</a></li>
                 </ul>
             </div>
         </div>
