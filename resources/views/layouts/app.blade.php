@@ -33,6 +33,7 @@
     @vite('resources/css/aboutUs.css')
     @vite('resources/css/showDonations.css')
     @vite('resources/css/faq.css')
+    @vite('resources/css/donationCreate.css')
 
 </head>
     

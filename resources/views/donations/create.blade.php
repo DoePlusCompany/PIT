@@ -21,34 +21,34 @@
         </div>
 </header>
 
-<section class="container">
-    <form id="container-create-donations" action="{{ route('donations.store') }}" method="POST">
-        <h2>Crie sua doação</h2>
-        @csrf
-        <label for="title">Título:</label>
-        <input type="text" class="form-control" name="title" required>
+<main id="main-create-donate">
+        <form action="{{ route('donations.store') }}" method="POST">
+            @csrf
+            <label for="title">Título:</label>
+            <input type="text" name="title" required>
+            
+            <label for="description">Descrição:</label>
+            <textarea name="description" required></textarea>
+            
+            <label for="donation_type">Tipo da Doação:</label>
+            <select name="donation_type" required>
+                <option value="">Selecione</option>
+                <option value="Alimento">Alimento</option>
+                <option value="Roupas">Roupas</option>
+                <option value="Dinheiro">Dinheiro</option>
+                <!-- Adicione mais tipos de doação conforme necessário -->
+            </select>
+        
+            <label for="name_ong">Nome da Ong:</label>
+            <input type="text" name="name_ong" required>
+        
+            <label for="chave_pix">Chave Pix:</label>
+            <input type="text" name="chave_pix" required>
+            
+            <button type="submit">CRIAR DOAÇÃO</button>
+        </form>
 
-        <label for="description">Descrição:</label>
-        <textarea name="description" class="form-control" required></textarea>
-
-        <label for="donation_type">Tipo da Doação:</label>
-        <select name="donation_type" class="form-control" required>
-            <option value="">Selecione</option>
-            <option value="Alimento">Alimento</option>
-            <option value="Roupas">Roupas</option>
-            <option value="Dinheiro">Dinheiro</option>
-            <!-- Adicione mais tipos de doação conforme necessário -->
-        </select>
-
-        <label for="name_ong">Nome da Ong:</label>
-        <input type="text" class="form-control" name="name_ong" required>
-
-        <label for="chave_pix">Chave Pix:</label>
-        <input type="text" class="form-control" name="chave_pix" required>
-
-        <button type="submit" class="btn btn-primary">Criar</button>
-    </form>
-</section>
+</main>
 
 <section id="footer">
     <div id="footer-wrapper">

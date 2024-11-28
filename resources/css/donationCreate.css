@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#main-create-donate{
+    background-color: #Ededed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#main-create-donate form {
+    background-color: #D66253;
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 40px #4b4b4b;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2vh;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+#main-create-donate form label {
+    color: #fff;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+#main-create-donate form input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    height: 2vh;
+    margin-bottom: 5vh;
+    padding-left: 1vw;
+    padding-bottom: 6px;
+    outline: none;
+}
+
+#main-create-donate form textarea {
+    background-color: transparent;
+    border: 2px solid #fff;
+    height: 10vh;
+    margin-bottom: 5vh;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    outline: none;
+}
+
+#main-create-donate form select {
+    background-color: #fff;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    height: 4vh;
+    border: none;
+    border-radius: 20px;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    color: black;
+    margin-bottom: 5vh;
+}
+
+#main-create-donate form button {
+    background-color: #fff;
+    height: 4vh;
+    width: 40%;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 5vh;
+    color: black;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#main-create-donate form button:hover {
+    background-color: #Ededed;
+    transition: .3s;
+}
