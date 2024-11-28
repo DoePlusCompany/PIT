@@ -11,9 +11,9 @@ class CarrosselController extends Controller
     {
         // Imagens do carrossel
         $imagens = [
-            (new CarrosselImage('assets/carrosselImgs/noticia1.png'))->get_image(),
-            (new CarrosselImage('assets/carrosselImgs/noticia2.png'))->get_image(),
-            (new CarrosselImage('assets/carrosselImgs/noticia3.png'))->get_image(),
+            (new CarrosselImage('assets/carrosselImgs/noticia1.jpg'))->get_image(),
+            (new CarrosselImage('assets/carrosselImgs/noticia2.jpg'))->get_image(),
+            (new CarrosselImage('assets/carrosselImgs/noticia3.jpg'))->get_image(),
         ];
 
         // Passar as imagens para a view da página inicial

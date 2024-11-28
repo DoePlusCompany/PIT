@@ -5,12 +5,17 @@ body {
 
 /* Container principal */
 .container{
-    margin-top: 60px;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background-color: #EDEDED;
+    width: 60%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column  ;
+    box-shadow: 5px 5px 40px #4b4b4b;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2vh;
+    margin-top: 10vh;
+    justify-content: center;
 }
 
 /* Cabeçalho do formulário */
@@ -31,27 +36,45 @@ body {
 }
 
 /* Estilo dos campos do formulário */
-.form-control {
-    border-radius: 8px;
+.form-group{
+    border: none;
+    background-color: transparent;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border-bottom: 2px solid #D66253;
+}
+
+.form-group textarea{
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #D66253;
+}
+
+.form-control{
+    background-color: transparent;
+    border: none;
 }
 
 .form-control:focus {
-    border-color: #007bff;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    
+    background-color: transparent;
 }
 
 /* Botão de envio */
 .btn-primary {
-    background-color: #E1B926;
+    background-color: #dc7d71;
+    height: 4vh;
+    width: 40%;
     border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 8px;
-    transition: background-color 0.3s ease-in-out;
-    width: 100%;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-top: 5vh;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    cursor: pointer;
 }
 
 .btn-primary:hover {

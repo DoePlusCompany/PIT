@@ -26,16 +26,11 @@
         <button id="button-main-top-home">CONTRIBUIR</button>
     </section>
 
-    <section id="imagens">
-        <img src="assets/sectionImgs/first.png" alt="">
-        <img src="assets/sectionImgs/second.png" alt="">
-        <img src="assets/sectionImgs/third.png" alt="">
-    </section>
+    <section id="blocos-coloridos">
+        <div id="blocos-alimento">ALIMENTAÇÃO</div>
+        <div id="blocos-roupas">ROUPAS</div>
+        <div id="blocos-dinheiro">DINHEIRO</div>
 
-    <section id="imagens">
-        <img src="assets/sectionImgs/first.png" alt="">
-        <img src="assets/sectionImgs/second.png" alt="">
-        <img src="assets/sectionImgs/third.png" alt="">
     </section>
 
     <!-- inicio secao de nossa missao -->
@@ -97,10 +92,7 @@
                         <div class="info-help-card">
                             <h1>Arrecadando roupas</h1>
                             <h2>Saúde - Tratamento</h2>
-                            <div class="user-email-help">
-                                <div id="user-icon-help"></div>
-                                <p>caiosouza@gmail.com</p>
-                            </div>
+                           
 
                             <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
                                     width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -118,10 +110,7 @@
                         <div class="info-help-card">
                             <h1>Arrecadando alimentos</h1>
                             <h2>Saúde - Tratamento</h2>
-                            <div class="user-email-help">
-                                <div id="user-icon-help-2"></div>
-                                <p>caiosouza@gmail.com</p>
-                            </div>
+                            
 
                             <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
                                     width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -139,10 +128,7 @@
                         <div class="info-help-card">
                             <h1>Arrecadando dinheiro</h1>
                             <h2>Saúde - Tratamento</h2>
-                            <div class="user-email-help">
-                                <div id="user-icon-help-3"></div>
-                                <p>caiosouza@gmail.com</p>
-                            </div>
+                           
 
                             <div class="arrow-card-help"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
                                     width="25px"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

@@ -80,7 +80,7 @@
                     <div class="accordion-item">
                         <div class="accordion-title" onclick="toggleAccordion(this)">
                             {{ $faq['question'] }}
-                            <span class="arrow">▶</span>
+                            <span class="arrow">+</span>
                         </div>
                         <div class="accordion-content">
                             <p>{{ $faq['answer'] }}</p>

@@ -1,4 +1,4 @@
-.container {
+.fontainer {
     width: 100%;
     max-width: 1216px;
     margin: 0 auto;
@@ -24,10 +24,51 @@
 #main-top-home{
     background-color: #EDEDED;
     width: 100%;
-    height: 95vh;
+    height: 88vh;
     display: flex;
     justify-content: end;
     position: relative;
+}
+
+
+#blocos-coloridos{
+    background-color: #ffffff;
+    height: 43vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+#blocos-alimento{
+    background-color: #21AF7C;
+    width: 34%;
+    padding-top: 30vh;
+    padding-left: 2%;
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+#blocos-roupas{
+    background-color: #E1B926;
+    width: 34%;
+    padding-top: 30vh;
+    padding-left: 2%;
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+}
+
+#blocos-dinheiro{
+    background-color: #D66253;
+    width: 34%;
+    padding-top: 30vh;
+    padding-left: 2%;
+    font-size: 28px;
+    color: white;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
 }
 
 #main-top-home img{
@@ -304,7 +345,7 @@
 
 .card-help{
     background-color: #F9F9F9;
-    height: 90%;
+    height: 85%;
     width: 29%;
     box-shadow: 5px 5px 20px #BBBBBB;
     font-family: "Montserrat", sans-serif;
@@ -325,7 +366,7 @@
     margin: 0;
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 20%;
+    margin-bottom: 70%;
 }
 
 .info-help-card{
@@ -491,6 +532,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 10px;
+    height: 70vh;
+    
 }
 
 
@@ -505,6 +548,12 @@
     background-color: #6d6d6d;
     width: 100%;
     border-radius: 10px;
+    height: 100%;
+}
+
+#sub-01 div img{
+    height: 100%;
+    width: 100%;
 }
 
 #sub-01 p {
@@ -523,6 +572,13 @@
     background-color: #6d6d6d;
     width: 100%;
     border-radius: 10px;
+   
+    
+}
+
+#sub-02 div img{
+    height: 100%;
+    width: 100%;
 }
 
 #sub-02 p {
@@ -541,6 +597,13 @@
     background-color: #6d6d6d;
     width: 100%;
     border-radius: 10px;
+   
+    
+}
+
+#sub-03 div img{
+    height: 100%;
+    width: 100%;
 }
 
 #sub-03 p {
@@ -572,7 +635,7 @@
 
 .carousel-item img {
     width: 100%; /* Assegura que a imagem ocupe a largura total do item do carrossel */
-    height: auto; /* Tamanho anterior 50vh -- A altura se ajusta automaticamente para manter a proporção */
+    height: 70vh; /* Tamanho anterior 50vh -- A altura se ajusta automaticamente para manter a proporção */
     object-fit: cover; /* Cobre o espaço mantendo a proporção */
 }
 
