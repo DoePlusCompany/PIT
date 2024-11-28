@@ -34,6 +34,8 @@
     @vite('resources/css/showDonations.css')
     @vite('resources/css/faq.css')
     @vite('resources/css/donationCreate.css')
+    @vite('resources/css/showProfile.css')
+
 
 </head>
     

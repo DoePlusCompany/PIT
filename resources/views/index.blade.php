@@ -49,8 +49,12 @@
                             um sistema de doações transparente e eficiente.
                         </p>
                     </div>
-                    <button>
-                        <p>Saiba mais</p>
+                    <button >
+                        <p>
+                            <a class="link" href="/aboutus">
+                                Saiba mais
+                            </a>
+                        </p>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="12px"
                             fill="white"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                             <path
@@ -185,20 +189,6 @@
                             </a>
                         </div>
                     </div>
-                    <div id="sub-wrapper-blog-bottom-right">
-                        <div id="sub-01">
-                            <div></div>
-                            <p>Estamos construindo o mais relevante ecossistema de ONGs online do Brasil</p>
-                        </div>
-                        <div id="sub-02">
-                            <div></div>
-                            <p>Loja online estimula novas formas de apoiar causas emergenciais</p>
-                        </div>
-                        <div id="sub-03">
-                            <div></div>
-                            <p>A Maior Campanha Solidária do RS se Une à Maior Faxina Voluntária da História do RS!</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -217,7 +207,6 @@
             <div class="testimonial-container">
                 <!-- Testimonial 1 -->
                 <div class="testimonial-card">
-                    <img src="https://via.placeholder.com/80" alt="Ana Silva" class="testimonial-img">
                     <h5 class="testimonial-name">Ana Silva</h5>
                     <p class="testimonial-content">
                         "A experiência de doar foi incrível. Ver o impacto positivo foi extremamente gratificante."
@@ -226,7 +215,6 @@
 
                 <!-- Testimonial 2 -->
                 <div class="testimonial-card">
-                    <img src="https://via.placeholder.com/80" alt="João Pereira" class="testimonial-img">
                     <h5 class="testimonial-name">João Pereira</h5>
                     <p class="testimonial-content">
                         "Contribuir para essa causa me fez sentir parte de algo muito maior. Recomendo a todos!"
@@ -235,7 +223,6 @@
 
                 <!-- Testimonial 3 -->
                 <div class="testimonial-card">
-                    <img src="https://via.placeholder.com/80" alt="Mariana Souza" class="testimonial-img">
                     <h5 class="testimonial-name">Mariana Souza</h5>
                     <p class="testimonial-content">
                         "Foi muito fácil doar, e a transparência do processo me deu muita confiança na instituição."

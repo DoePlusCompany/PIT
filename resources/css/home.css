@@ -639,4 +639,7 @@
     object-fit: cover; /* Cobre o espaço mantendo a proporção */
 }
 
-
+.link{
+    text-decoration: none;
+    color: white;
+}

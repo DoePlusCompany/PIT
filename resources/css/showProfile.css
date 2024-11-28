@@ -1,0 +1,97 @@
+.body-profile {
+    background-color: #F0F4F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-container {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.profile-header {
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    font-size: 2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.profile-icon {
+    font-size: 80px;
+    color: #4caf50;
+    background-color: #e8f5e9;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.profile-info {
+    text-align: left;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.profile-info p span {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.profile-actions a,
+.profile-actions button {
+    background-color: #21AF7C;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.profile-actions a:hover,
+.profile-actions button:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
+
+.profile-actions form button {
+    width: 100%;
+}
+
+.deslogar-btn{
+    background-color: #D66253 !important;
+}
